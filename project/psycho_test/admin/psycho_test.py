@@ -14,8 +14,13 @@ class PsychoTestToResultInline(admin.TabularInline):
 
 @admin.register(PsychoTest)
 class PsychoTestAdmin(BaseModelAdmin):
-    inlines = (PsychoTestToResultInline, )
-    list_display = ('id', 'name', 'created_at')
+    def questions_count(self, obj):
+        return PsychoTestToQuestion.objects.filter(psycho_test_id=obj.id).count()
+
+    questions_count.short_description = 'Кол-во вопросов'
+
+    inlines = (PsychoTestToResultInline,)
+    list_display = ('id', 'name', 'questions_count', 'created_at')
 
 
 class PsychoTestQuestionToAnswerInline(admin.TabularInline):
