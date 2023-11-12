@@ -1,4 +1,6 @@
 from django.contrib import admin
+from django.utils.safestring import mark_safe
+
 from psycho_test.models.psycho_test import PsychoTestQuestionToAnswer, PsychoTest, PsychoTestToQuestion
 from psycho_test.models.result import PsychoTestToResult
 from utils.admins import BaseModelAdmin
@@ -30,4 +32,11 @@ class PsychoTestToQuestionAdmin(BaseModelAdmin):
 
 @admin.register(PsychoTestQuestionToAnswer)
 class PsychoTestQuestionToAnswerAdmin(BaseModelAdmin):
-    list_display = ('id', 'test_question', 'answer', 'score', 'created_at')
+
+    def br_test_question(self, obj):
+        return mark_safe(f"Тест: {obj.test_question.psycho_test.name} <br/><br/> Вопрос: {obj.test_question.question.title}")
+
+    br_test_question.allow_tags = True
+    br_test_question.short_description = 'Связь тестирования с вопросом'
+
+    list_display = ('id', 'br_test_question', 'answer', 'score', 'created_at')

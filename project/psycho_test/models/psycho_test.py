@@ -56,6 +56,7 @@ class PsychoTestQuestionToAnswer(AbstractBaseModel):
     test_question = models.ForeignKey(
         to="psycho_test.PsychoTestToQuestion",
         on_delete=models.CASCADE,
+        verbose_name='Связь тестирования с вопросом'
     )
 
     answer = models.ForeignKey(
