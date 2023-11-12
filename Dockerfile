@@ -10,4 +10,5 @@ COPY requirements.txt .
 RUN python -m pip install --no-cache -r requirements.txt
 
 COPY .env .
+COPY start.sh .
 COPY project .
