@@ -1,0 +1,31 @@
+version: "3.8"
+
+services:
+  db:
+    image: postgres:15.1
+    container_name: pt_db
+    hostname: db
+    environment:
+      POSTGRES_HOST: "localhost"
+      POSTGRES_USER: pt_user
+      POSTGRES_DB: pt_db
+      POSTGRES_PASSWORD: "pt_u4TXZloZ+me6Xg=="
+      TZ: Europe/Moscow
+    ports:
+      - "3071:5432"
+    volumes:
+      - './data/postgres:/var/lib/postgresql/data'
+    restart: always
+    
+  backend:
+    container_name: pt_backend
+    hostname: backend
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "3070:8000"
+    restart: always
+    depends_on:
+      - db
+    command: bash start.sh
