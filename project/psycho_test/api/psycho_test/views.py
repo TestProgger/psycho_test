@@ -14,9 +14,10 @@ class PsychoTestViewSet(ViewSet, ResponseMixin):
 
     def list(self, request: Request):
         serializer = serializers.ListPsychoTestModelSerializer(
-            instance=models.PsychoTest.objects.all(),
+            instance=models.PsychoTest.objects.filter(is_visible=True),
             many=True
         )
+
         return self.success_response(body={"list": serializer.data})
 
     def start_test(self, request: Request):

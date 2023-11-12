@@ -20,6 +20,11 @@ class PsychoTest(AbstractBaseModel):
         verbose_name="Ссылка на изображение"
     )
 
+    is_visible = models.BooleanField(
+        default=True,
+        verbose_name="Виден"
+    )
+
     def __str__(self):
         return f"{self.name}"
 
