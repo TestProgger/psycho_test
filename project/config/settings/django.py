@@ -71,18 +71,13 @@ WSGI_APPLICATION = 'config.wsgi.application'
 if env.str('DATABASE_URL', None):
     DATABASES = {
         "default": env.db('DATABASE_URL'),
-        "datamart": env.db('DATAMART_DATABASE_URL')
     }
 else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': BASE_DIR / 'mdm_db.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
         },
-        'datamart': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': BASE_DIR / 'datamart_db.sqlite3',
-        }
     }
 
 # DATABASE_ROUTERS = ['routers.db_router.DataMartRouter', 'routers.db_router.DefaultAppRouter']

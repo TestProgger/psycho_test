@@ -140,9 +140,8 @@ class SubjectToPsychoTest(AbstractBaseModel):
         verbose_name="Токен доступа"
     )
 
-
     def __str__(self):
-        return f"{self.subject} {self.psycho_test}"
+        return f"{self.subject}  - {self.psycho_test}"
 
     class Meta:
         verbose_name = "Связь объекта тестирования с тестом"

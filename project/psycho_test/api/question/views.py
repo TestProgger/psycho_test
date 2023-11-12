@@ -34,7 +34,8 @@ class QuestionViewSet(ViewSet, ResponseMixin):
                 .filter(
                     psycho_test_id=subject_test.psycho_test_id
                 )
-
+            answered_count = 0
+            all_count = 0
             for question in questions:
                 question_body = {
                     'id': question.id,
@@ -60,6 +61,7 @@ class QuestionViewSet(ViewSet, ResponseMixin):
                         ).first()
 
                     if subject_q_to_a:
+                        answered_count += 1
                         question_body['is_answered'] = True
                         question_body['answers'].append(
                             {
@@ -79,7 +81,11 @@ class QuestionViewSet(ViewSet, ResponseMixin):
                             }
                         )
                 response_body.append(question_body)
-        except:
-            pass
+        except Exception as ex:
+            return self.success_response(body={'list': []}, message=ex.__str__())
 
-        return self.success_response(body={'list': response_body})
+        return self.success_response(body={
+            'list': response_body,
+            "answered": answered_count,
+            'total': questions.count()
+        })

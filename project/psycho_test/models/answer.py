@@ -4,7 +4,7 @@ from utils.models import AbsractDictionaryModel, AbstractBaseModel
 
 class Answer(AbstractBaseModel):
     title = models.TextField(
-        verbose_name="Текст вопроса"
+        verbose_name="Текст ответа"
     )
 
     description = models.TextField(

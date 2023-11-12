@@ -19,6 +19,9 @@ class SubjectGroupAdmin(BaseModelAdmin):
 class SubjectToPsychoTestAnswerAdmin(BaseModelAdmin):
     list_display = ('id', 'subject_test', 'answer', 'created_at')
 
+    def _get_user_defined_readonly_fields(self, request, obj=None):
+        return ('subject_test', 'answer')
+
 
 @admin.register(SubjectToPsychoTestResult)
 class SubjectToPsychoTestResultAdmin(BaseModelAdmin):

@@ -1,10 +1,18 @@
 from django.contrib import admin
 from psycho_test.models.psycho_test import PsychoTestQuestionToAnswer, PsychoTest, PsychoTestToQuestion
+from psycho_test.models.result import PsychoTestToResult
 from utils.admins import BaseModelAdmin
+
+
+class PsychoTestToResultInline(admin.TabularInline):
+    model = PsychoTestToResult
+    extra = 0
+    min_num = 0
 
 
 @admin.register(PsychoTest)
 class PsychoTestAdmin(BaseModelAdmin):
+    inlines = (PsychoTestToResultInline, )
     list_display = ('id', 'name', 'created_at')
 
 
