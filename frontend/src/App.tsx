@@ -31,6 +31,7 @@ function App() {
       <>
         <Routes>
           <Route path='/' element={<MainPage/>} />
+          <Route path='*' element={<Navigate to={'/'}/>} />
         </Routes>
         <Error/>
       </>

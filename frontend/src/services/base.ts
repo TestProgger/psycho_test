@@ -28,7 +28,7 @@ class BaseService {
             {
                 baseURL: BaseURL,
                 timeout: 3000,
-                withCredentials: false
+                withCredentials: true,
             }
         )
     }

@@ -1,16 +1,32 @@
 import { ITest } from "@/types/services/tests";
 import { observer } from "mobx-react-lite";
-import { FC, useState } from "react";
+import { FC, useCallback, useEffect, useState } from "react";
 import './ListTests.scss'
 import { usePersistentStore } from "@store";
 import TestCard from "./components/TestCard";
+import TestsService from "@services/tests";
+import { IMessageListObject } from "@/types/services/base";
 
 
 
 const ListTestsPage: FC = () => {
 
     const [testList, setTestList] = useState<ITest[]>([]);
-    const { subject } = usePersistentStore()
+    const { subject, error } = usePersistentStore()
+    const testsService = new TestsService(subject.secret)
+
+    const listServices = useCallback(async () => {
+        const response = await testsService.list();
+        if(response.body){
+            setTestList(response.body.list)
+        }else{
+            error.setMessageList(response.status.message as IMessageListObject)
+        }
+    }, [testList])
+
+    useEffect(() => {
+        listServices()
+    },[])
 
     return (
         <div className="list-tests-page">
