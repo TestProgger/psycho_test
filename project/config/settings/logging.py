@@ -33,6 +33,15 @@ LOGGING = {
             "maxBytes": LOGGING_FILE_SIZE,
             "backupCount": 4
         },
+        "api_file": {
+            "class": "logging.handlers.RotatingFileHandler",
+            "formatter": "file",
+            "encoding": "UTF-8",
+            "filename": os.path.join(LOGGING_DIR, 'api.log'),
+            "maxBytes": LOGGING_FILE_SIZE,
+            "backupCount": 4
+        },
+
     },
     "loggers": {
         "project": {
@@ -45,5 +54,10 @@ LOGGING = {
             "level": "INFO",
             "propagate": False
         },
+        "api": {
+            "handlers": ["console", 'api_file'],
+            "level": "INFO",
+            "propagate": False
+        }
     },
 }

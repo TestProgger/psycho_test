@@ -5,11 +5,14 @@ from utils.permissions import IsSubjectSet
 from utils.mixins import ResponseMixin
 from rest_framework.viewsets import ViewSet
 from rest_framework.request import Request
-
+import logging
+from utils.decorators import log_viewset_action
+logger = logging.getLogger('api')
 
 class AnswerViewSet(ViewSet, ResponseMixin):
     permission_classes = (IsSubjectSet, )
 
+    @log_viewset_action(logger)
     def set_answer(self, request: Request):
         serializer = serializers.SetAnswerSerializer(data=request.data)
         if not serializer.is_valid():

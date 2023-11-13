@@ -11,7 +11,6 @@ ALLOWED_HOSTS = ['*']
 CSRF_TRUSTED_ORIGINS = env.list("DJANGO_CSRF_TRUSTED_ORIGINS", default=['http://127.0.0.1',], cast=str)
 CORS_ALLOW_ALL_ORIGINS = env.bool('DJANGO_CORS_ALLOW_ALL_ORIGINS', default=True)
 
-os.environ["DJANGO_ALLOW_ASYNC_UNSAFE"] = "true"
 DJANGO_ALLOW_ASYNC_UNSAFE = True
 
 DJANGO_APPS = [
@@ -38,6 +37,7 @@ INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS + THIRD_PARTY_APPS
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',

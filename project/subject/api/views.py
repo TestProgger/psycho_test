@@ -10,11 +10,15 @@ from subject import models
 import secrets
 from utils.mixins import ResponseMixin
 from django.conf import settings
+import logging
+from utils.decorators import log_viewset_action
+logger = logging.getLogger('api')
 
 
 class SubjectViewSet(ViewSet, ResponseMixin):
     permission_classes = (AllowAny, )
 
+    @log_viewset_action(logger)
     def create_subject(self, request: Request):
         cookie = request.META.get("HTTP_COOKIE", '')
         if cookie:
@@ -50,8 +54,18 @@ class SubjectViewSet(ViewSet, ResponseMixin):
 
         return response
 
+    @log_viewset_action(logger)
     def renew_cookie(self, request: Request):
         return Response(
             # data={"cookie": request.META.get("HTTP_COOKIE")}
             data={}
         )
+
+    @log_viewset_action(logger)
+    def list_groups(self, request: Request):
+        serializer = serializers.ListGroupsModelSerializer(
+            instance=models.SubjectGroup.objects.all(),
+            many=True
+        )
+
+        return self.success_response(body={'list': serializer.data})

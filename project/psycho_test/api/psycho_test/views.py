@@ -7,11 +7,14 @@ from utils.permissions import IsSubjectSet
 from utils.mixins import ResponseMixin
 from rest_framework.viewsets import ViewSet
 from rest_framework.request import Request
-
+import logging
+from utils.decorators import log_viewset_action
+logger = logging.getLogger('api')
 
 class PsychoTestViewSet(ViewSet, ResponseMixin):
     permission_classes = [IsSubjectSet, ]
 
+    @log_viewset_action(logger)
     def list(self, request: Request):
         serializer = serializers.ListPsychoTestModelSerializer(
             instance=models.PsychoTest.objects.filter(is_visible=True),
@@ -20,6 +23,7 @@ class PsychoTestViewSet(ViewSet, ResponseMixin):
 
         return self.success_response(body={"list": serializer.data})
 
+    @log_viewset_action(logger)
     def start_test(self, request: Request):
         serializer = serializers.StartPsychoTestSerializer(data=request.data)
 
@@ -46,6 +50,7 @@ class PsychoTestViewSet(ViewSet, ResponseMixin):
 
         return self.success_response(body={"subject_test_id": subject_test.id, 'token': subject_test.token})
 
+    @log_viewset_action(logger)
     def end_test(self, request: Request):
         serializer = serializers.EndPsychoTestSerializer(data=request.data)
 
