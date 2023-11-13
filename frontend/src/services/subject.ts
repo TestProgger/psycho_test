@@ -10,11 +10,11 @@ class SubjectService extends BaseService{
         super(secret);
     }
 
-    public async create_subject(first_name: string, last_name: string, middle_name: string, group_id: string){
+    public async createSubject(first_name: string, last_name: string, middle_name: string, group_id: string){
         return await this.post<ICreateSubject>('/create/', {first_name, last_name, middle_name, group_id})
     }
 
-    public async list_groups(){
+    public async listGroups(){
         return await this.get<IListResponse<IGroup>>('/list_groups/')
     }
 }

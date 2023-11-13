@@ -5,31 +5,43 @@ import { Autocomplete, TextField } from '@mui/material';
 import { IGroup } from '@/types/group';
 import { Arrow } from '@icons/Arrow';
 import { SubjectService } from '@services';
+import { observer } from 'mobx-react-lite';
+import { usePersistentStore } from '@store';
+import { IMessageListObject } from '@types/services/base';
 
-
-const OPTIONS = [
-    {'name': 'ZIS' , 'id': '123'},
-    {'name': 'ZISA' , 'id': '1231231'},
-    {'name': 'ZISO' , 'id': '123123'}
-]
-
-
-export const MainPage : FC = () => {
+const MainPage : FC = () => {
     const [firstName, setFirstName] = useState<string>('')
     const [lastName, setLastName] = useState<string>('')
     const [middleName, setMiddleName] = useState<string>('')
-    const [groupId, setGroupId] = useState<string>('')
+    const [group, setGroup] = useState<IGroup>({id: '', name: ''})
     const [groupList, setGroupList] = useState<IGroup[]>([])
 
     const subjectService = new SubjectService();
+    const {error, subject} = usePersistentStore()
 
     const listGroups = useCallback(async () => {
-        const response = await subjectService.list_groups()
-        setGroupList(response.body.list)
+        const response = await subjectService.listGroups()
+        if (response.body){
+            setGroupList(response.body.list)
+        }
     }, [groupList])
+
+    const onGroupSelectorChange = useCallback((name: string) => {
+        const _group = groupList.find(g => g.name == name)
+        setGroup(prev => ({...prev, ..._group}))
+    }, [group])
 
     useEffect(() => {
         listGroups()
+    }, [firstName, lastName, middleName, group])
+
+    const handleCreateSubject = useCallback(async () => {
+        const response = await subjectService.createSubject(firstName, lastName, middleName, group.id)
+        if(response.body){
+            subject.setSubject(response.body)
+        }else{
+            error.setMessageList(response.status.message as IMessageListObject)
+        }
     }, [])
 
 
@@ -47,15 +59,15 @@ export const MainPage : FC = () => {
                         <StyledInput placeholder='Имя' value={firstName} onChange={e => setFirstName(e.target.value)}/>
                         <StyledInput placeholder='Отчество' value={middleName} onChange={e => setMiddleName(e.target.value)}/>
                         <Autocomplete
-                            value={groupId}
-                            onChange={(e, value) => {console.log(OPTIONS.filter(o => o.name === value)[0].id); setGroupId(OPTIONS.filter(o => o.name === value)[0].id)}}
+                            value={group.name}
+                            onChange={(e, value) => {onGroupSelectorChange(value as string)}}
                             disablePortal
-                            options={OPTIONS.map(o => o.name)}
+                            options={groupList.map(o => o.name)}
                             sx={{width: '100%'}}
                             renderInput={(params) => <TextField {...params} label="Группа" />}
                         />
                     </div>
-                    <div className="block-auth-go-next">
+                    <div className="block-auth-go-next"onClick={handleCreateSubject}>
                         <div className="block-auth-go-next-text">
                             Пройти тесты
                         </div>
@@ -68,3 +80,6 @@ export const MainPage : FC = () => {
         </div>
     )
 }
+
+
+export default observer(MainPage)

@@ -1,5 +1,6 @@
-import axios, { AxiosInstance } from "axios";
+import axios, { AxiosError, AxiosInstance } from "axios";
 import { BaseURL } from "./consts";
+import { IMessageListObject } from "@/types/services/base";
 type RequestMethod = 'GET' | 'POST' | 'PUT' | 'DELETE';
 
 export interface IRefreshTokenBody {
@@ -11,7 +12,7 @@ export interface IRefreshTokenBody {
 export interface IResponse<T> {
     body: T,
     status: {
-        message: string,
+        message: string | IMessageListObject,
         code: number
     }
 }
@@ -49,8 +50,13 @@ class BaseService {
     }
 
     protected async request<T>(method: RequestMethod, url: string, data: object = {}, params: object = {}, is_retry: boolean =false): Promise<IResponse<T>> {
-        const response = await this.session.request({ method, url: this.basePath + url, data, params })
-        return this.formatResponse<T>(response.data)
+        try{
+            const response = await this.session.request({ method, url: this.basePath + url, data, params })
+            return this.formatResponse<T>(response.data)
+        }
+        catch(e: AxiosError){
+            return e.response.data
+        }
         
     }
 
