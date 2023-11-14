@@ -17,11 +17,20 @@ export const Error = types.model('Error', {
         self.is_visible = true
     },
     setMessageList(message_list: IMessageListObject){
-        console.log(message_list)
         self.message = null
         self.message_list = cast(formatMessage(message_list))
         self.is_visible = true
     },
+
+    throw(message: string | IMessageListObject){
+        console.log(typeof message, message)
+        if(typeof message == 'object'){
+            self.setMessageList(message)
+        }else{
+            self.setMessage(message)
+        }
+    },
+
     setTimeout(timeout: number){
         self.timeout = timeout
     },

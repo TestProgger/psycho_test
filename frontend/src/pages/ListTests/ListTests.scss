@@ -5,20 +5,48 @@
     padding: 60px clamp(0px, 10%, 15%);
 
     .block-head{
-        &-greating{
-            font-size: 52px;
-            color: #9a9a9a;
-            font-weight: 600;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .block-text{
+            &-greating{
+                font-size: 52px;
+                color: #9a9a9a;
+                font-weight: 600;
+            }
+    
+            &-full-name{
+                font-size: 52px;
+                color: #5a5a5a;
+                font-weight: 600;
+            }
         }
 
-        &-full-name{
-            font-size: 52px;
-            color: #5a5a5a;
-            font-weight: 600;
+        .block-logout{
+            background-color: rgba($color: #5a5a5a, $alpha: 0.9);
+            color: #ffffff;
+            font-size: 20px;
+            padding: 16px 24px;
+            cursor: pointer;
+            border-radius: 20px;
+            align-self: flex-start;
+            
+            transition: all 0.3s;
+            &:hover{
+                transform: scale(1.1);
+                opacity: 0.9;
+            }
         }
+        
     }
 
     .block-body{
         margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }

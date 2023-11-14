@@ -4,7 +4,8 @@ export interface ICreateSubject{
     first_name: string,
     last_name: string,
     middle_name: string,
-    group_id: string
+    group_id: string,
+    expires: Date
 }
 
 export interface IGroup{

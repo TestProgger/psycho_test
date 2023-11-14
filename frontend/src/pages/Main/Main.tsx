@@ -7,7 +7,7 @@ import { Arrow } from '@icons/Arrow';
 import { SubjectService } from '@services';
 import { observer } from 'mobx-react-lite';
 import { usePersistentStore } from '@store';
-import { IMessageListObject } from '@types/services/base';
+import { IMessageListObject } from '@/types/services/base';
 
 const MainPage : FC = () => {
     const [firstName, setFirstName] = useState<string>('')
@@ -26,23 +26,25 @@ const MainPage : FC = () => {
         }
     }, [groupList])
 
-    const onGroupSelectorChange = useCallback((name: string) => {
+    const onGroupSelectorChange = (name: string) => {
         const _group = groupList.find(g => g.name == name)
         setGroup(prev => ({...prev, ..._group}))
-    }, [group])
+    }
 
     useEffect(() => {
         listGroups()
-    }, [firstName, lastName, middleName, group])
+    }, [])
 
-    const handleCreateSubject = useCallback(async () => {
-        const response = await subjectService.createSubject(firstName, lastName, middleName, group.id)
+    const handleCreateSubject = async () => {
+        const response = await subjectService.createSubject(
+            firstName, lastName, middleName, group.id, subject?.secret || null
+        )
         if(response.body){
             subject.setSubject(response.body)
         }else{
-            error.setMessageList(response.status.message as IMessageListObject)
+            error.throw(response.status.message as IMessageListObject)
         }
-    }, [])
+    }
 
 
 

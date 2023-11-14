@@ -27,8 +27,9 @@ class BaseService {
         this.session = axios.create(
             {
                 baseURL: BaseURL,
-                timeout: 3000,
+                timeout: 30000,
                 withCredentials: true,
+                headers: secret ? { "X-Secret": secret } : {}
             }
         )
     }
