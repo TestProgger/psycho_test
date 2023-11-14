@@ -62,6 +62,7 @@ const MainPage : FC = () => {
                         <StyledInput placeholder='Отчество' value={middleName} onChange={e => setMiddleName(e.target.value)}/>
                         <Autocomplete
                             value={group.name}
+                            // @ts-ignore
                             onChange={(e, value) => {onGroupSelectorChange(value as string)}}
                             disablePortal
                             options={groupList.map(o => o.name)}

@@ -1,8 +1,8 @@
-import {FC} from 'react';
+import {FC, ReactNode} from 'react';
 import './Container.scss';
 
-
-export const Container: FC = ({children}) => {
+// @ts-ignore
+export const Container: FC<{children: ReactNode}> = ({children}) => {
     return (
         <div className="block-container">
             {children}

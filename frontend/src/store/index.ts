@@ -1,4 +1,4 @@
-import { cast, types } from "mobx-state-tree";
+import { types } from "mobx-state-tree";
 import createPersistentStore from "mst-persistent-store";
 import { Subject } from "@store/subject";
 import { INITIAL_SUBJECT, INITIAL_ERROR } from "./consts";

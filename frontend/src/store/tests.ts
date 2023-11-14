@@ -1,4 +1,4 @@
-import { IStartTest } from "@types/services/tests";
+import { IStartTest } from "@/types/services/tests";
 import { cast, types } from "mobx-state-tree";
 
 

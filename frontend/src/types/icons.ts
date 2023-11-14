@@ -1,5 +1,5 @@
 export interface IBaseIcon{
-    width: string
-    height: string
+    width: number
+    height: number
     fill ?: string
 }

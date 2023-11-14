@@ -62,6 +62,7 @@ const TestPage: FC = () => {
         }
         else{
             setIsModalView(true);
+            // @ts-ignore
             setModalTitle(response.body.title)
         }
     }, [testId])

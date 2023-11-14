@@ -1,4 +1,4 @@
-import axios, { AxiosError, AxiosInstance } from "axios";
+import axios, { AxiosInstance } from "axios";
 import { BaseURL } from "./consts";
 import { IMessageListObject } from "@/types/services/base";
 type RequestMethod = 'GET' | 'POST' | 'PUT' | 'DELETE';
@@ -34,28 +34,29 @@ class BaseService {
         )
     }
 
-    protected async post<T>(url: string, data: object = {}, is_retry: boolean = false): Promise<IResponse<T>> {
-        return await this.request('POST', url, data, {} ,is_retry) as IResponse<T>
+    protected async post<T>(url: string, data: object = {}): Promise<IResponse<T>> {
+        return await this.request('POST', url, data, {} ) as IResponse<T>
     }
 
-    protected async get<T>(url: string, params: object = {}, is_retry: boolean = false): Promise<IResponse<T>> {
-        return await this.request('GET', url, {} ,params, is_retry) as IResponse<T>
+    protected async get<T>(url: string, params: object = {}, ): Promise<IResponse<T>> {
+        return await this.request('GET', url, {} ,params) as IResponse<T>
     }
 
-    protected async delete<T>(url: string, is_retry: boolean = false): Promise<IResponse<T>> {
-        return await this.request('DELETE', url, {}, {}, is_retry) as IResponse<T>
+    protected async delete<T>(url: string): Promise<IResponse<T>> {
+        return await this.request('DELETE', url, {}, {}) as IResponse<T>
     }
 
-    protected async put<T>(url: string, data = {}, is_retry: boolean = false): Promise<IResponse<T>> {
-        return await this.request('PUT', url, data, {}, is_retry) as IResponse<T>
+    protected async put<T>(url: string, data = {}): Promise<IResponse<T>> {
+        return await this.request('PUT', url, data, {}) as IResponse<T>
     }
 
-    protected async request<T>(method: RequestMethod, url: string, data: object = {}, params: object = {}, is_retry: boolean =false): Promise<IResponse<T>> {
+    protected async request<T>(method: RequestMethod, url: string, data: object = {}, params: object = {}): Promise<IResponse<T>> {
         try{
             const response = await this.session.request({ method, url: this.basePath + url, data, params })
             return this.formatResponse<T>(response.data)
         }
-        catch(e: AxiosError){
+        catch(e){
+            // @ts-ignore
             return e.response.data
         }
         

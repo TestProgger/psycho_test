@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { IBaseIcon } from "@ctypes/icons";
+import { IBaseIcon } from "@/types/icons";
 
 export const Arrow: FC<IBaseIcon> = ({width, height, fill = "#D2D8E3"}) => {
   return (

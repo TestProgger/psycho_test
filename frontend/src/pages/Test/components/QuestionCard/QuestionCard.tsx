@@ -62,6 +62,7 @@ interface IAnswerItem{
     is_checked: boolean
     onClick: (id: string) => void
 }
+// @ts-ignore
 const AnswerItem: FC<IAnswerItem> = ({answer_id, title, description, is_checked, onClick}) => {
     return (
         <div className="block-answer" onClick={() => onClick(answer_id)}>

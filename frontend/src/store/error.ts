@@ -25,8 +25,10 @@ export const Error = types.model('Error', {
     throw(message: string | IMessageListObject){
         console.log(typeof message, message)
         if(typeof message == 'object'){
+            // @ts-ignore
             self.setMessageList(message)
         }else{
+            // @ts-ignore
             self.setMessage(message)
         }
     },
