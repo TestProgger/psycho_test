@@ -2,18 +2,39 @@ import os
 from config.settings.env import env, BASE_DIR
 
 os.environ["DJANGO_ALLOW_ASYNC_UNSAFE"] = "true"
+os.environ["CORS_ALLOW_CREDENTIALS"] = "true"
 
 SECRET_KEY = env.str('DJANGO_SECRET_KEY')
 
 DEBUG = env.bool('DJANGO_DEBUG', default=True)
 
 ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = env.list("DJANGO_CSRF_TRUSTED_ORIGINS", default=['http://127.0.0.1',], cast=str)
-CORS_ALLOW_ALL_ORIGINS = env.bool('DJANGO_CORS_ALLOW_ALL_ORIGINS', default=True)
+CSRF_TRUSTED_ORIGINS = env.list("DJANGO_CSRF_TRUSTED_ORIGINS", default=['http://127.0.0.1', ], cast=str)
+CORS_ALLOW_ALL_ORIGINS = True
+
+CORS_ALLOW_CREDENTIALS = True
+
+CORS_ALLOW_METHODS = (
+    "GET",
+    "POST",
+    "PUT",
+    "DELETE",
+    "OPTIONS"
+)
+CORS_ALLOW_HEADERS = (
+    "accept",
+    "authorization",
+    "content-type",
+    "user-agent",
+    "x-csrftoken",
+    "x-requested-with",
+    "x-secret"
+)
 
 DJANGO_ALLOW_ASYNC_UNSAFE = True
 
 DJANGO_APPS = [
+    'corsheaders',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -37,13 +58,14 @@ INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS + THIRD_PARTY_APPS
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'utils.middlewares.SetSubjectMiddleware'
+    'corsheaders.middleware.CorsMiddleware',
+    'utils.middlewares.SetSubjectMiddleware',
+    # 'corsheaders.middleware.CorsMiddleware',
     # 'admin_reorder.middleware.ModelAdminReorder'
 ]
 
@@ -121,3 +143,4 @@ PASSWORD_HASHERS = [
 COOKIE_EXPIRATION_HOURS = 24
 COOKIE_KEY = 'Token'
 COOKIE_HEADER_KEY = 'HTTP_COOKIE'
+SECRET_HEADER = 'X-Secret'

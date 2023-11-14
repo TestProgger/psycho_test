@@ -1,18 +1,19 @@
 from django.utils.deprecation import MiddlewareMixin
 from django.utils.functional import SimpleLazyObject
 from django.conf import settings
-from subject.models import SubjectIdentity
+from subject.models import SubjectIdentity, Subject
 
 
 def get_subject(request):
-    cookie = request.META.get(settings.COOKIE_HEADER_KEY)
-    if not cookie:
-        return None
-    subject_token = cookie.replace(f"{settings.COOKIE_KEY}=", "")
     try:
-        return SubjectIdentity.objects.select_related('subject').get(token=subject_token).subject
-    except:
-        return None
+        return Subject.objects.get(
+            subjectidentity__token=request.COOKIES.get(settings.COOKIE_KEY),
+            subjectidentity__secret=request.headers.get(settings.SECRET_HEADER)
+        )
+    except Exception as ex:
+        pass
+
+    return None
 
 
 class SetSubjectMiddleware(MiddlewareMixin):

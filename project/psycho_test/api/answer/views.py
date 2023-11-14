@@ -25,7 +25,8 @@ class AnswerViewSet(ViewSet, ResponseMixin):
                 subject=request.subject,
                 psycho_test_id=test_question.psycho_test_id
             )
-        except:
+        except Exception as ex:
+            logger.error(f"error={ex.__str__()}")
             return self.error_response('Ошибка при сохранении ответа')
 
         if serializer.validated_data.get('answer_id'):
@@ -33,7 +34,8 @@ class AnswerViewSet(ViewSet, ResponseMixin):
                 new_answer = models.PsychoTestQuestionToAnswer.objects.get(
                     id=serializer.validated_data.get('answer_id')
                 )
-            except:
+            except Exception as ex:
+                logger.error(f"error={ex.__str__()}")
                 return self.error_response('Ошибка при сохранении ответа')
 
             subject_models.SubjectToPsychoTestAnswer.objects \
@@ -55,7 +57,8 @@ class AnswerViewSet(ViewSet, ResponseMixin):
                 new_answers = models.PsychoTestQuestionToAnswer.objects.get(
                         id=serializer.validated_data.get('answer_id')
                     )
-            except:
+            except Exception as ex:
+                logger.error(f"error={ex.__str__()}")
                 return self.error_response('Ошибка при сохранении ответа')
 
             subject_models.SubjectToPsychoTestAnswer.objects \

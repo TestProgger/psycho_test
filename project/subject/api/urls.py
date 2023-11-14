@@ -1,9 +1,10 @@
 from django.urls import path
-from subject.api.views import SubjectViewSet
+from subject.api.views import SubjectViewSet, LogoutSubjectViewSet
 
 
 urlpatterns = [
     path('create/', SubjectViewSet.as_view({'post': 'create_subject'})),
     path('renew_cookie/', SubjectViewSet.as_view({'post': 'renew_cookie'})),
-    path('list_groups/', SubjectViewSet.as_view({'get': 'list_groups'}))
+    path('list_groups/', SubjectViewSet.as_view({'get': 'list_groups'})),
+    path('logout/', LogoutSubjectViewSet.as_view({'post': 'logout'}))
 ]

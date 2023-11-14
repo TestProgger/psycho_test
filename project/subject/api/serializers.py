@@ -7,6 +7,7 @@ class CreateSubjectSerializer(serializers.Serializer):
     last_name = serializers.CharField()
     middle_name = serializers.CharField(allow_blank=True, allow_null=True)
     group_id = serializers.UUIDField()
+    secret = serializers.CharField(required=False, allow_null=True)
 
 
 class ListGroupsModelSerializer(serializers.ModelSerializer):
