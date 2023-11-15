@@ -68,11 +68,11 @@ class SubjectIdentity(AbstractBaseModel):
     )
 
     secret = models.CharField(
-        max_length=64,
+        max_length=255,
     )
 
     token = models.CharField(
-        max_length=64
+        max_length=255
     )
 
     expires = models.DateTimeField(
