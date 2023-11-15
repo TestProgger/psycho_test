@@ -44,7 +44,7 @@ class PsychoTestViewSet(ViewSet, ResponseMixin):
                 subject_test = subject_models.SubjectToPsychoTest.objects.create(
                     psycho_test=psycho_test,
                     subject=request.subject,
-                    token=secrets.token_urlsafe(64)
+                    token=secrets.token_urlsafe(40)
                 )
 
         except Exception as ex:

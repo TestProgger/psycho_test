@@ -42,8 +42,8 @@ class SubjectViewSet(ViewSet, ResponseMixin):
             parent=parent_subject
         )
 
-        subject_secret = secrets.token_urlsafe(60)
-        subject_token = secrets.token_urlsafe(60)
+        subject_secret = secrets.token_urlsafe(40)
+        subject_token = secrets.token_urlsafe(40)
 
         subject_identity = models.SubjectIdentity.objects.create(
             secret=subject_secret,

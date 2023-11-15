@@ -144,7 +144,7 @@ class SubjectToPsychoTest(AbstractBaseModel):
     )
 
     token = models.CharField(
-        max_length=80,
+        max_length=255,
         verbose_name="Токен доступа"
     )
 

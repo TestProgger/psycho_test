@@ -9,6 +9,7 @@ import logging
 from utils.decorators import log_viewset_action
 logger = logging.getLogger('api')
 
+
 class AnswerViewSet(ViewSet, ResponseMixin):
     permission_classes = (IsSubjectSet, )
 
