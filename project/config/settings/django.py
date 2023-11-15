@@ -65,8 +65,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'corsheaders.middleware.CorsMiddleware',
     'utils.middlewares.SetSubjectMiddleware',
-    # 'corsheaders.middleware.CorsMiddleware',
-    # 'admin_reorder.middleware.ModelAdminReorder'
+    'utils.middlewares.DisableCSRFMiddleware',
 ]
 
 ROOT_URLCONF = 'config.urls'
