@@ -9,7 +9,14 @@
         justify-content: space-around;
         align-items: center;
 
+        @media (max-width: 1440px) {
+            flex-wrap: wrap;
+        }
+
         .block-text{
+            @media (max-width: 1440px) {
+                font-size: 50px;
+            }
             font-size: 74px;
             font-family: 'Gilroy-Regular';
             font-weight: 600;
@@ -20,6 +27,12 @@
             }
         }
         .block-auth{
+            // @media (max-width: 1440px) {
+            //     margin-left: 0px;
+            // }
+            @media (max-width: 1200px) {
+                margin-left: 30px;
+            }
             margin-left: clamp(50px, 100px, 150px);
             &-input{
                 display: flex;
