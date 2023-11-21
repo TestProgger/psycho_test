@@ -1,0 +1,236 @@
+[
+{
+  "model": "psycho_test.psychotest",
+  "pk": "01063bb4-b5c5-4ea8-9dc8-e683efa45fb8",
+  "fields": {
+    "created_at": "2023-11-12T17:47:24.548Z",
+    "updated_at": "2023-11-12T17:47:24.548Z",
+    "name": "ДКА Виктора Бойко Провокация агрессии у окружающих",
+    "description": "ДКА - Диагностика коммуникативной агрессивности",
+    "image_url": "",
+    "is_visible": true,
+    "answers": []
+  }
+},
+{
+  "model": "psycho_test.psychotest",
+  "pk": "0215e52b-8bc4-476b-a3e5-ddc7f6418764",
+  "fields": {
+    "created_at": "2023-11-12T17:42:53.587Z",
+    "updated_at": "2023-11-12T17:42:53.587Z",
+    "name": "ДКА Виктора Бойко Анонимная агрессия",
+    "description": "ДКА - Диагностика коммуникативной агрессивности",
+    "image_url": "",
+    "is_visible": true,
+    "answers": []
+  }
+},
+{
+  "model": "psycho_test.psychotest",
+  "pk": "02c610a9-4242-4392-bcfb-a34f282e674c",
+  "fields": {
+    "created_at": "2023-11-12T18:25:43.964Z",
+    "updated_at": "2023-11-12T18:25:43.964Z",
+    "name": "Состояние фрустраци Виктора Бойко",
+    "description": "",
+    "image_url": "",
+    "is_visible": true,
+    "answers": []
+  }
+},
+{
+  "model": "psycho_test.psychotest",
+  "pk": "09ebd56a-fd29-4b0a-9d95-c464736ee12c",
+  "fields": {
+    "created_at": "2023-11-12T18:54:29.766Z",
+    "updated_at": "2023-11-12T18:54:29.766Z",
+    "name": "Формула темперамента по Белову. Часть 3",
+    "description": "",
+    "image_url": "",
+    "is_visible": true,
+    "answers": []
+  }
+},
+{
+  "model": "psycho_test.psychotest",
+  "pk": "0dff13a1-6727-4c6f-be85-af64672a591f",
+  "fields": {
+    "created_at": "2023-11-12T17:38:55.863Z",
+    "updated_at": "2023-11-12T17:38:55.863Z",
+    "name": "ДКА Виктора Бойко Неумение переключать агрессию",
+    "description": "ДКА - Диагностика коммуникативной агрессивности",
+    "image_url": "",
+    "is_visible": true,
+    "answers": []
+  }
+},
+{
+  "model": "psycho_test.psychotest",
+  "pk": "18aae988-2a3a-4aca-aa6c-c12864b89de2",
+  "fields": {
+    "created_at": "2023-11-12T17:52:55.326Z",
+    "updated_at": "2023-11-12T17:52:55.326Z",
+    "name": "ДКА Виктора Бойко Склонность к отраженной агрессии",
+    "description": "ДКА - Диагностика коммуникативной агрессивности",
+    "image_url": "",
+    "is_visible": true,
+    "answers": []
+  }
+},
+{
+  "model": "psycho_test.psychotest",
+  "pk": "283b8d8a-62f6-4c85-b066-2020383d503d",
+  "fields": {
+    "created_at": "2023-11-12T18:21:04.171Z",
+    "updated_at": "2023-11-12T18:21:04.171Z",
+    "name": "ДКА Виктора Бойко Расплата за агрессию",
+    "description": "",
+    "image_url": "",
+    "is_visible": true,
+    "answers": []
+  }
+},
+{
+  "model": "psycho_test.psychotest",
+  "pk": "30a82c85-2916-493d-9347-02172aabb304",
+  "fields": {
+    "created_at": "2023-11-12T19:32:07.589Z",
+    "updated_at": "2023-11-12T19:32:07.589Z",
+    "name": "Шкала тревоги Спилбергера-Ханина, STAI",
+    "description": "",
+    "image_url": "",
+    "is_visible": true,
+    "answers": []
+  }
+},
+{
+  "model": "psycho_test.psychotest",
+  "pk": "43a6710c-0835-42ae-b444-88bb5d8772db",
+  "fields": {
+    "created_at": "2023-11-12T16:38:32.780Z",
+    "updated_at": "2023-11-12T16:38:32.780Z",
+    "name": "Опросник ригидности (учебный) А. Г. Шмелев (1984)",
+    "description": "",
+    "image_url": "",
+    "is_visible": true,
+    "answers": []
+  }
+},
+{
+  "model": "psycho_test.psychotest",
+  "pk": "4d0a043b-d9ba-4b4f-9aa9-0c5414edb604",
+  "fields": {
+    "created_at": "2023-11-12T18:15:56.204Z",
+    "updated_at": "2023-11-12T18:15:56.204Z",
+    "name": "ДКА Виктора Бойко Удовольствие от агрессии",
+    "description": "",
+    "image_url": "",
+    "is_visible": true,
+    "answers": []
+  }
+},
+{
+  "model": "psycho_test.psychotest",
+  "pk": "728a97cc-eae8-4f8a-a1fc-f3c211d86638",
+  "fields": {
+    "created_at": "2023-11-12T18:04:13.833Z",
+    "updated_at": "2023-11-12T18:04:13.833Z",
+    "name": "ДКА Виктора Бойко Ритуализация агрессии",
+    "description": "",
+    "image_url": "",
+    "is_visible": true,
+    "answers": []
+  }
+},
+{
+  "model": "psycho_test.psychotest",
+  "pk": "82eb3992-fedb-49fc-acae-0e8f5ba42819",
+  "fields": {
+    "created_at": "2023-11-12T18:34:37.329Z",
+    "updated_at": "2023-11-12T18:34:37.329Z",
+    "name": "Формула темперамента по Белову. Часть 1",
+    "description": "",
+    "image_url": "",
+    "is_visible": true,
+    "answers": []
+  }
+},
+{
+  "model": "psycho_test.psychotest",
+  "pk": "a4034830-d8da-4c87-a439-daa18009e777",
+  "fields": {
+    "created_at": "2023-11-12T17:33:58.008Z",
+    "updated_at": "2023-11-12T17:33:58.008Z",
+    "name": "ДКА Виктора Бойко Неспособность тормозить агрессию",
+    "description": "ДКА - Диагностика коммуникативной агрессивности",
+    "image_url": "",
+    "is_visible": true,
+    "answers": []
+  }
+},
+{
+  "model": "psycho_test.psychotest",
+  "pk": "cd8675e0-e9ef-45b7-aeae-64a3ef7f1d70",
+  "fields": {
+    "created_at": "2023-11-12T19:12:07.083Z",
+    "updated_at": "2023-11-12T19:12:07.083Z",
+    "name": "Формула темперамента по Белову. Часть 4",
+    "description": "",
+    "image_url": "",
+    "is_visible": true,
+    "answers": []
+  }
+},
+{
+  "model": "psycho_test.psychotest",
+  "pk": "ce493fe9-69da-4ad6-84ae-9d52f618fcab",
+  "fields": {
+    "created_at": "2023-11-12T17:59:09.715Z",
+    "updated_at": "2023-11-12T17:59:09.715Z",
+    "name": "ДКА Виктора Бойко Аутоагрессия",
+    "description": "ДКА - Диагностика коммуникативной агрессивности",
+    "image_url": "",
+    "is_visible": true,
+    "answers": []
+  }
+},
+{
+  "model": "psycho_test.psychotest",
+  "pk": "e1299e90-bdb4-407d-b00a-117cf11d1644",
+  "fields": {
+    "created_at": "2023-11-12T18:10:20.740Z",
+    "updated_at": "2023-11-12T18:10:20.740Z",
+    "name": "ДКА Виктора Бойко Склонность заражаться агрессией толпы",
+    "description": "",
+    "image_url": "",
+    "is_visible": true,
+    "answers": []
+  }
+},
+{
+  "model": "psycho_test.psychotest",
+  "pk": "e53745d9-2c1a-47a0-8785-a54a015e5fbb",
+  "fields": {
+    "created_at": "2023-11-12T17:25:45.489Z",
+    "updated_at": "2023-11-12T17:29:02.331Z",
+    "name": "ДКА Виктора Бойко Спонтанная агрессия",
+    "description": "ДКА - Диагностика коммуникативной агрессивности",
+    "image_url": "",
+    "is_visible": true,
+    "answers": []
+  }
+},
+{
+  "model": "psycho_test.psychotest",
+  "pk": "f62c743b-2726-4c92-b0b8-c10b4a438e97",
+  "fields": {
+    "created_at": "2023-11-12T18:45:07.209Z",
+    "updated_at": "2023-11-12T18:45:07.209Z",
+    "name": "Формула темперамента по Белову. Часть 2",
+    "description": "",
+    "image_url": "",
+    "is_visible": true,
+    "answers": []
+  }
+}
+]

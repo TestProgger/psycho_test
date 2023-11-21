@@ -1,0 +1,542 @@
+[
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "0161e401-d5b0-4a74-a288-411df48fc994",
+  "fields": {
+    "created_at": "2023-11-12T21:40:22.982Z",
+    "updated_at": "2023-11-12T21:40:22.982Z",
+    "psycho_test": "cd8675e0-e9ef-45b7-aeae-64a3ef7f1d70",
+    "result": "1fc9ce9c-3d96-4beb-a626-2fab4abf83a7",
+    "score_min": 8.0,
+    "score_max": 14.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "0ffa430c-0112-4916-bf20-f98551080bb7",
+  "fields": {
+    "created_at": "2023-11-12T22:11:06.571Z",
+    "updated_at": "2023-11-12T22:11:06.571Z",
+    "psycho_test": "01063bb4-b5c5-4ea8-9dc8-e683efa45fb8",
+    "result": "cffa3b30-67dc-43d6-acd1-80de24a132e0",
+    "score_min": 0.0,
+    "score_max": 2.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "103e35ac-214a-4250-b617-bd58e03ae744",
+  "fields": {
+    "created_at": "2023-11-12T21:59:15.429Z",
+    "updated_at": "2023-11-12T21:59:15.429Z",
+    "psycho_test": "4d0a043b-d9ba-4b4f-9aa9-0c5414edb604",
+    "result": "6c82b2f9-4fe0-4885-a337-bf8a29d693d8",
+    "score_min": 3.0,
+    "score_max": 5.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "182ab158-4616-4b4d-a642-8f524e5b6a51",
+  "fields": {
+    "created_at": "2023-11-12T21:33:33.457Z",
+    "updated_at": "2023-11-12T21:33:33.457Z",
+    "psycho_test": "30a82c85-2916-493d-9347-02172aabb304",
+    "result": "cd872747-6316-4d6b-b781-c1d4cf3172eb",
+    "score_min": 0.1,
+    "score_max": 1.9
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "18631009-1e1d-4f80-a3d9-42cec573c164",
+  "fields": {
+    "created_at": "2023-11-12T22:17:04.427Z",
+    "updated_at": "2023-11-12T22:17:04.427Z",
+    "psycho_test": "a4034830-d8da-4c87-a439-daa18009e777",
+    "result": "dc2e3850-ba1f-4e88-8c4c-c3ae77e9bc8a",
+    "score_min": 3.0,
+    "score_max": 5.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "23f412ec-9eb0-4fdb-bc89-a72adad49840",
+  "fields": {
+    "created_at": "2023-11-12T21:56:53.745Z",
+    "updated_at": "2023-11-12T21:56:53.745Z",
+    "psycho_test": "43a6710c-0835-42ae-b444-88bb5d8772db",
+    "result": "a93e8120-320a-43f3-bff3-b56cef817e3d",
+    "score_min": 28.0,
+    "score_max": 50.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "254a2d2a-d8ad-4c8e-9c56-ddf83fa70828",
+  "fields": {
+    "created_at": "2023-11-12T22:08:22.084Z",
+    "updated_at": "2023-11-12T22:08:22.084Z",
+    "psycho_test": "728a97cc-eae8-4f8a-a1fc-f3c211d86638",
+    "result": "394d3a12-f1df-4884-80aa-ea40f43963ff",
+    "score_min": 0.0,
+    "score_max": 2.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "3333d28a-6758-420c-832b-c61b3c2283b6",
+  "fields": {
+    "created_at": "2023-11-12T21:44:09.217Z",
+    "updated_at": "2023-11-12T21:44:09.217Z",
+    "psycho_test": "09ebd56a-fd29-4b0a-9d95-c464736ee12c",
+    "result": "8e6af2fe-08f2-457f-91ae-bf9e2f097ff1",
+    "score_min": 0.0,
+    "score_max": 7.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "3ec5064c-56de-4e7f-8d58-6a25fb28dd23",
+  "fields": {
+    "created_at": "2023-11-12T21:35:12.043Z",
+    "updated_at": "2023-11-12T21:35:12.044Z",
+    "psycho_test": "30a82c85-2916-493d-9347-02172aabb304",
+    "result": "563e4082-9cb1-4cca-9db5-0cec8e48ce4f",
+    "score_min": 4.1,
+    "score_max": 5.9
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "4011f04a-91b3-46a4-82cb-8bbf1926c0cc",
+  "fields": {
+    "created_at": "2023-11-12T21:52:00.356Z",
+    "updated_at": "2023-11-12T21:52:00.356Z",
+    "psycho_test": "02c610a9-4242-4392-bcfb-a34f282e674c",
+    "result": "a2211dbb-7134-4639-84cd-54a06a72257d",
+    "score_min": 0.0,
+    "score_max": 3.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "41165366-6ba1-4e91-9f1c-32da58331cee",
+  "fields": {
+    "created_at": "2023-11-12T22:17:46.189Z",
+    "updated_at": "2023-11-12T22:17:46.189Z",
+    "psycho_test": "ce493fe9-69da-4ad6-84ae-9d52f618fcab",
+    "result": "0f7ab2b7-a7d1-4aaa-ae2b-d1d03f0d2dae",
+    "score_min": 0.0,
+    "score_max": 2.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "42855b21-0f06-4e68-9c49-31b39c52de75",
+  "fields": {
+    "created_at": "2023-11-12T21:50:48.936Z",
+    "updated_at": "2023-11-12T21:50:48.936Z",
+    "psycho_test": "82eb3992-fedb-49fc-acae-0e8f5ba42819",
+    "result": "f6588796-671b-44ee-a16e-094fbbef70dc",
+    "score_min": 0.0,
+    "score_max": 7.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "46621f75-f7fb-4a97-af24-867d12cfa06e",
+  "fields": {
+    "created_at": "2023-11-12T22:10:18.348Z",
+    "updated_at": "2023-11-12T22:10:18.348Z",
+    "psycho_test": "283b8d8a-62f6-4c85-b066-2020383d503d",
+    "result": "ab074154-b028-4c97-a276-8346f9555411",
+    "score_min": 3.0,
+    "score_max": 5.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "471a7950-20a7-48f7-bcae-d9fb690b3f02",
+  "fields": {
+    "created_at": "2023-11-12T22:13:47.265Z",
+    "updated_at": "2023-11-12T22:13:47.265Z",
+    "psycho_test": "0dff13a1-6727-4c6f-be85-af64672a591f",
+    "result": "37098196-f89a-4b02-b3f5-3844ee37b485",
+    "score_min": 0.0,
+    "score_max": 2.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "4aa3e7b2-4d1b-4604-9200-e4cbbc81dab1",
+  "fields": {
+    "created_at": "2023-11-12T21:41:47.752Z",
+    "updated_at": "2023-11-12T21:41:47.752Z",
+    "psycho_test": "09ebd56a-fd29-4b0a-9d95-c464736ee12c",
+    "result": "3cd5c12c-f5bb-46b9-bb26-d9eaf0541210",
+    "score_min": 15.0,
+    "score_max": 20.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "551542af-eb90-4ba9-985d-fb4adf25e910",
+  "fields": {
+    "created_at": "2023-11-12T21:49:29.603Z",
+    "updated_at": "2023-11-12T21:49:29.603Z",
+    "psycho_test": "82eb3992-fedb-49fc-acae-0e8f5ba42819",
+    "result": "188d86ad-e90e-4725-9992-6dc869956ddc",
+    "score_min": 15.0,
+    "score_max": 20.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "5eb79479-b59c-4d58-85e6-94444359f9cf",
+  "fields": {
+    "created_at": "2023-11-12T22:05:53.063Z",
+    "updated_at": "2023-11-12T22:05:53.063Z",
+    "psycho_test": "e1299e90-bdb4-407d-b00a-117cf11d1644",
+    "result": "e93410c4-3bba-4a59-a28c-849adcb2c411",
+    "score_min": 3.0,
+    "score_max": 5.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "5f2f4163-6c88-471d-86b4-d023361a24d2",
+  "fields": {
+    "created_at": "2023-11-12T21:54:01.373Z",
+    "updated_at": "2023-11-12T21:54:01.373Z",
+    "psycho_test": "02c610a9-4242-4392-bcfb-a34f282e674c",
+    "result": "00dfef72-90f2-4fb9-988a-f33f7c1bb090",
+    "score_min": 9.0,
+    "score_max": 12.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "606304d8-abc6-425b-a59c-7a90d2a35987",
+  "fields": {
+    "created_at": "2023-11-12T21:59:59.250Z",
+    "updated_at": "2023-11-12T21:59:59.250Z",
+    "psycho_test": "e53745d9-2c1a-47a0-8785-a54a015e5fbb",
+    "result": "211e7c39-d622-4132-8da1-058ef12e739e",
+    "score_min": 0.0,
+    "score_max": 2.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "7270b4b3-8c29-4e1c-bdce-5a3463a74523",
+  "fields": {
+    "created_at": "2023-11-12T22:04:58.449Z",
+    "updated_at": "2023-11-12T22:04:58.449Z",
+    "psycho_test": "e1299e90-bdb4-407d-b00a-117cf11d1644",
+    "result": "fad72dd2-ca16-43af-8e44-27c7964bbfe2",
+    "score_min": 0.0,
+    "score_max": 2.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "76d8f663-92cd-48f9-b7f3-713f33ea26b7",
+  "fields": {
+    "created_at": "2023-11-12T22:19:41.243Z",
+    "updated_at": "2023-11-12T22:19:41.243Z",
+    "psycho_test": "0215e52b-8bc4-476b-a3e5-ddc7f6418764",
+    "result": "0ffc1a45-079b-431f-8505-561961fa2ba3",
+    "score_min": 3.0,
+    "score_max": 5.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "7dc22d53-f17c-4ee0-a0e9-c22c6290ca79",
+  "fields": {
+    "created_at": "2023-11-12T22:18:28.058Z",
+    "updated_at": "2023-11-12T22:18:28.058Z",
+    "psycho_test": "ce493fe9-69da-4ad6-84ae-9d52f618fcab",
+    "result": "3529796e-cb1f-41c5-b08e-509557c0f8e3",
+    "score_min": 3.0,
+    "score_max": 5.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "7ea16aea-f862-4d05-8479-e3d4a5499597",
+  "fields": {
+    "created_at": "2023-11-12T21:47:44.425Z",
+    "updated_at": "2023-11-12T21:47:44.425Z",
+    "psycho_test": "f62c743b-2726-4c92-b0b8-c10b4a438e97",
+    "result": "f37fca46-c3fe-4458-a908-ff5cacd98db6",
+    "score_min": 0.0,
+    "score_max": 7.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "8e244643-87d4-49b9-9a43-d0706632a8f3",
+  "fields": {
+    "created_at": "2023-11-12T22:09:41.587Z",
+    "updated_at": "2023-11-12T22:09:41.588Z",
+    "psycho_test": "283b8d8a-62f6-4c85-b066-2020383d503d",
+    "result": "8fbbacbf-5aea-49c7-b732-85b9ddc95177",
+    "score_min": 0.0,
+    "score_max": 2.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "8f54d3b5-3ad7-4f3b-8d84-d329a55a5cbe",
+  "fields": {
+    "created_at": "2023-11-12T22:08:58.375Z",
+    "updated_at": "2023-11-12T22:08:58.375Z",
+    "psycho_test": "728a97cc-eae8-4f8a-a1fc-f3c211d86638",
+    "result": "27949d6c-6311-405b-93eb-587f9f556c7c",
+    "score_min": 3.0,
+    "score_max": 5.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "98103361-c9c8-4074-9dbc-e208f8358eeb",
+  "fields": {
+    "created_at": "2023-11-12T21:56:06.162Z",
+    "updated_at": "2023-11-12T21:56:06.162Z",
+    "psycho_test": "43a6710c-0835-42ae-b444-88bb5d8772db",
+    "result": "8e22daa5-0c40-4311-8f5d-d2ca17e4effc",
+    "score_min": 14.0,
+    "score_max": 27.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "a5ca56de-5b5a-4a1b-8aef-b62c077be58c",
+  "fields": {
+    "created_at": "2023-11-12T22:00:36.691Z",
+    "updated_at": "2023-11-12T22:00:36.691Z",
+    "psycho_test": "e53745d9-2c1a-47a0-8785-a54a015e5fbb",
+    "result": "18836991-fe56-4e7c-9a7d-fed38db9b0a1",
+    "score_min": 3.0,
+    "score_max": 5.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "b1af3562-1334-413e-8698-11a34c802672",
+  "fields": {
+    "created_at": "2023-11-12T21:46:28.165Z",
+    "updated_at": "2023-11-12T21:46:28.165Z",
+    "psycho_test": "f62c743b-2726-4c92-b0b8-c10b4a438e97",
+    "result": "f7f0b2d6-0608-45ad-90a9-eabb4115d5d5",
+    "score_min": 8.0,
+    "score_max": 14.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "c069ccdf-6cb7-4ce2-8d44-cbdcdb44acc4",
+  "fields": {
+    "created_at": "2023-11-12T21:50:08.114Z",
+    "updated_at": "2023-11-12T21:50:08.114Z",
+    "psycho_test": "82eb3992-fedb-49fc-acae-0e8f5ba42819",
+    "result": "42919e19-f603-4f3b-af57-bca4b3f7b62a",
+    "score_min": 8.0,
+    "score_max": 14.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "c14956f1-545f-4010-86ed-83b108422911",
+  "fields": {
+    "created_at": "2023-11-12T21:41:00.031Z",
+    "updated_at": "2023-11-12T21:41:00.031Z",
+    "psycho_test": "cd8675e0-e9ef-45b7-aeae-64a3ef7f1d70",
+    "result": "817a8e5b-2d00-4814-924d-49f392553404",
+    "score_min": 0.0,
+    "score_max": 7.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "c750a039-126e-4814-aa90-ab2851380429",
+  "fields": {
+    "created_at": "2023-11-12T21:34:29.710Z",
+    "updated_at": "2023-11-12T21:34:29.710Z",
+    "psycho_test": "30a82c85-2916-493d-9347-02172aabb304",
+    "result": "836a46ea-d701-4f70-be43-392d90b346d6",
+    "score_min": 2.0,
+    "score_max": 3.9
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "cbfa4ffc-73f5-4d5d-84e0-953c7abf6e97",
+  "fields": {
+    "created_at": "2023-11-12T21:58:21.677Z",
+    "updated_at": "2023-11-12T21:58:21.677Z",
+    "psycho_test": "4d0a043b-d9ba-4b4f-9aa9-0c5414edb604",
+    "result": "e6d6a619-8561-4f09-87bf-b65b3f2a4b2d",
+    "score_min": 0.0,
+    "score_max": 2.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "d01c95d8-581d-4f1e-b6d3-1538e8a18861",
+  "fields": {
+    "created_at": "2023-11-12T21:43:27.278Z",
+    "updated_at": "2023-11-12T21:46:41.197Z",
+    "psycho_test": "09ebd56a-fd29-4b0a-9d95-c464736ee12c",
+    "result": "0a5801bf-f313-4888-980e-ecdab50e8a6a",
+    "score_min": 8.0,
+    "score_max": 14.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "d2241ca6-acde-449e-833f-7d9dc9a3b2d9",
+  "fields": {
+    "created_at": "2023-11-12T22:12:50.483Z",
+    "updated_at": "2023-11-12T22:12:50.483Z",
+    "psycho_test": "01063bb4-b5c5-4ea8-9dc8-e683efa45fb8",
+    "result": "ccfbf55e-1de3-4f7a-a66e-356b109ede85",
+    "score_min": 3.0,
+    "score_max": 5.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "d8ed1cd7-d700-486a-90a5-4fca5f8a2f75",
+  "fields": {
+    "created_at": "2023-11-12T21:39:27.402Z",
+    "updated_at": "2023-11-12T21:39:27.402Z",
+    "psycho_test": "cd8675e0-e9ef-45b7-aeae-64a3ef7f1d70",
+    "result": "e56c6f41-d4ca-47c2-b5d1-7e25d9df9fef",
+    "score_min": 15.0,
+    "score_max": 20.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "e60b83e0-2b86-4719-8b1d-d5fbf51df173",
+  "fields": {
+    "created_at": "2023-11-12T21:55:25.583Z",
+    "updated_at": "2023-11-12T21:55:25.583Z",
+    "psycho_test": "43a6710c-0835-42ae-b444-88bb5d8772db",
+    "result": "46ea78b2-769d-47a6-a98d-e452488a49d5",
+    "score_min": 0.0,
+    "score_max": 13.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "e68af7a2-da81-42b5-8813-bfbc8e160722",
+  "fields": {
+    "created_at": "2023-11-12T21:45:39.329Z",
+    "updated_at": "2023-11-12T21:45:39.329Z",
+    "psycho_test": "f62c743b-2726-4c92-b0b8-c10b4a438e97",
+    "result": "c7ba23af-0eb2-411c-a335-b106a9aaeaa5",
+    "score_min": 15.0,
+    "score_max": 20.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "eebed714-5277-4809-be24-e1306fca9c31",
+  "fields": {
+    "created_at": "2023-11-12T22:19:09.033Z",
+    "updated_at": "2023-11-12T22:19:09.033Z",
+    "psycho_test": "0215e52b-8bc4-476b-a3e5-ddc7f6418764",
+    "result": "8720030b-7818-4c7f-9140-b38802e8dbd7",
+    "score_min": 0.0,
+    "score_max": 2.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "f4f83c3d-27ad-4dcf-895b-793595ac34ef",
+  "fields": {
+    "created_at": "2023-11-12T21:53:16.052Z",
+    "updated_at": "2023-11-12T21:53:16.052Z",
+    "psycho_test": "02c610a9-4242-4392-bcfb-a34f282e674c",
+    "result": "7aa5d850-7aec-434a-9e05-31f68cc80afd",
+    "score_min": 6.0,
+    "score_max": 8.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "f8762990-274a-41be-90b5-2542653301c9",
+  "fields": {
+    "created_at": "2023-11-12T21:52:42.053Z",
+    "updated_at": "2023-11-12T21:52:42.053Z",
+    "psycho_test": "02c610a9-4242-4392-bcfb-a34f282e674c",
+    "result": "61ce107f-deb1-404b-85ee-017c4c955261",
+    "score_min": 4.0,
+    "score_max": 5.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "f8ac00b0-a2f8-433e-bc35-fe8ff2cf810a",
+  "fields": {
+    "created_at": "2023-11-12T21:37:21.701Z",
+    "updated_at": "2023-11-12T21:37:21.701Z",
+    "psycho_test": "30a82c85-2916-493d-9347-02172aabb304",
+    "result": "b4713b49-60ef-41c8-8eab-28b2014e1d2b",
+    "score_min": 6.0,
+    "score_max": 8.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "fd6b2b4a-7f7c-41d1-a2bd-4d5d12c0910a",
+  "fields": {
+    "created_at": "2023-11-12T22:16:12.354Z",
+    "updated_at": "2023-11-12T22:16:12.354Z",
+    "psycho_test": "a4034830-d8da-4c87-a439-daa18009e777",
+    "result": "49eb10e1-07de-44bc-b097-8d30ce04f852",
+    "score_min": 0.0,
+    "score_max": 2.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "fe7ddfa4-1144-4869-9955-81ac5f00e2d0",
+  "fields": {
+    "created_at": "2023-11-12T22:03:41.929Z",
+    "updated_at": "2023-11-12T22:03:41.929Z",
+    "psycho_test": "18aae988-2a3a-4aca-aa6c-c12864b89de2",
+    "result": "f831b926-ae8b-4b10-a4ab-dcf9feb3326b",
+    "score_min": 3.0,
+    "score_max": 5.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "fec6b3b0-73e7-415a-a2c6-315a9e739866",
+  "fields": {
+    "created_at": "2023-11-12T22:02:32.023Z",
+    "updated_at": "2023-11-12T22:02:32.023Z",
+    "psycho_test": "18aae988-2a3a-4aca-aa6c-c12864b89de2",
+    "result": "da4c77ae-2bd7-4775-82f8-de8f4a621845",
+    "score_min": 0.0,
+    "score_max": 2.0
+  }
+},
+{
+  "model": "psycho_test.psychotesttoresult",
+  "pk": "feec4d6e-03f1-468b-82d8-08a27e075ad6",
+  "fields": {
+    "created_at": "2023-11-12T22:14:31.781Z",
+    "updated_at": "2023-11-12T22:14:31.781Z",
+    "psycho_test": "0dff13a1-6727-4c6f-be85-af64672a591f",
+    "result": "4f2132c7-cc1b-44be-9120-f3a0f6ac5ebf",
+    "score_min": 3.0,
+    "score_max": 5.0
+  }
+}
+]

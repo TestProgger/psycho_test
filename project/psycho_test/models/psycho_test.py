@@ -25,6 +25,8 @@ class PsychoTest(AbstractBaseModel):
         verbose_name="Виден"
     )
 
+    answers = models.ManyToManyField("psycho_test.Answer")
+
     def __str__(self):
         return f"{self.name}"
 

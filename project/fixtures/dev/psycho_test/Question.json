@@ -1,0 +1,2411 @@
+[
+{
+  "model": "psycho_test.question",
+  "pk": "011fc46f-b425-4b1f-8384-32c965668add",
+  "fields": {
+    "created_at": "2023-11-12T16:59:58.508Z",
+    "updated_at": "2023-11-12T16:59:58.508Z",
+    "title": "Я уверен, что в мое отсутствие обо мне говорят.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "0126e40a-f6f4-4382-9376-6b704c6ff005",
+  "fields": {
+    "created_at": "2023-11-12T17:32:39.164Z",
+    "updated_at": "2023-11-12T17:32:39.164Z",
+    "title": "Бывают моменты, когда мне кажется, что я всех ненавижу.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "03fda116-20cc-46d0-8301-ebc8f7afb6cb",
+  "fields": {
+    "created_at": "2023-11-12T18:29:34.948Z",
+    "updated_at": "2023-11-12T18:29:34.948Z",
+    "title": "6 Вы часто срываете зло или досаду на ком-либо.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "04ed6c69-1978-435e-b836-db8d3306dcc9",
+  "fields": {
+    "created_at": "2023-11-12T18:49:08.529Z",
+    "updated_at": "2023-11-12T18:49:08.529Z",
+    "title": "Обладаете тихой речью, иногда снижающейся до шепота.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "08737aca-c464-4feb-b3b7-844088789259",
+  "fields": {
+    "created_at": "2023-11-12T18:04:45.525Z",
+    "updated_at": "2023-11-12T18:04:45.525Z",
+    "title": "Стоит мне разозлиться, как я добиваюсь своего от окружающих.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "0873cf3e-e4c7-4811-89b1-2d7d0f988b54",
+  "fields": {
+    "created_at": "2023-11-12T17:54:39.791Z",
+    "updated_at": "2023-11-12T17:54:39.791Z",
+    "title": "Если мне хамят, я, как правило, сдерживаю себя от резкости",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "096bfca8-8b09-4013-aae7-69cbed9bf35d",
+  "fields": {
+    "created_at": "2023-11-12T16:54:39.820Z",
+    "updated_at": "2023-11-12T16:54:39.820Z",
+    "title": "Неприличные шутки нередко вызывают у меня смех.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "0b353795-6d3f-433a-8300-ab975dccbc72",
+  "fields": {
+    "created_at": "2023-11-12T18:47:22.194Z",
+    "updated_at": "2023-11-12T18:47:22.194Z",
+    "title": "Легко переносите одиночество.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "0bb8ef2f-baab-4a7e-b7ba-96ff244262ef",
+  "fields": {
+    "created_at": "2023-11-12T18:43:16.507Z",
+    "updated_at": "2023-11-12T18:43:16.507Z",
+    "title": "Любите аккуратность и порядок во всем.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "0bc1a44b-3506-448e-a15c-e3795354ead4",
+  "fields": {
+    "created_at": "2023-11-12T18:49:34.379Z",
+    "updated_at": "2023-11-12T18:49:34.379Z",
+    "title": "Невольно приспосабливаетесь к характеру собеседника.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "11d2752f-6e24-40a6-8ec9-e8ffab3b9070",
+  "fields": {
+    "created_at": "2023-11-12T17:39:25.495Z",
+    "updated_at": "2023-11-12T17:39:25.495Z",
+    "title": "Чтобы избавляться от накопившейся злости, я придумал себе особый ритуал: периодически колочу подушку, боксирую в стенку, бегаю вокруг дома и т. п.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "122ce56a-7b80-4688-8c99-08867e1c027d",
+  "fields": {
+    "created_at": "2023-11-12T18:48:15.480Z",
+    "updated_at": "2023-11-12T18:48:15.480Z",
+    "title": "Склонны уходить в себя.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "1352afdc-dfc8-40ae-b7be-218cd1453d83",
+  "fields": {
+    "created_at": "2023-11-12T18:38:33.539Z",
+    "updated_at": "2023-11-12T18:38:33.539Z",
+    "title": "Сдержанны и терпеливы.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "141483d6-a1ff-436f-81e4-b1b76d7e010a",
+  "fields": {
+    "created_at": "2023-11-12T17:41:17.170Z",
+    "updated_at": "2023-11-12T17:41:17.170Z",
+    "title": "Чтобы успокоить нервную систему, я часто специально начинаю заниматься каким-либо делом (чтение, телевизор, хозяйственные заботы, профессиональная работа).",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "1441cf82-cecf-4dfc-a999-4f3c79dc93bf",
+  "fields": {
+    "created_at": "2023-11-12T19:19:19.673Z",
+    "updated_at": "2023-11-12T19:19:19.673Z",
+    "title": "Легко переживаете неудачи и неприятности.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "159e3dc9-f425-4142-a209-baec3df358d8",
+  "fields": {
+    "created_at": "2023-11-12T19:03:45.489Z",
+    "updated_at": "2023-11-12T19:03:45.489Z",
+    "title": "Работаете рывками.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "16dfad67-6aa9-495e-b96c-ef104e935e59",
+  "fields": {
+    "created_at": "2023-11-12T18:59:30.455Z",
+    "updated_at": "2023-11-12T18:59:30.456Z",
+    "title": ". Неусидчивы, суетливы.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "183fbc70-a10a-43f6-a219-594a2693b257",
+  "fields": {
+    "created_at": "2023-11-12T16:50:37.690Z",
+    "updated_at": "2023-11-12T16:50:37.690Z",
+    "title": "Я могу быть в дружеских отношениях с людьми, чьи поступки не одобряю",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "18f7fff3-a8da-4aff-ba1e-bff3bb3c49fc",
+  "fields": {
+    "created_at": "2023-11-12T17:45:06.964Z",
+    "updated_at": "2023-11-12T17:45:06.964Z",
+    "title": "Бывает, я выясняю отношения с продавцом или клерком на повышенных тонах",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "194b968a-fc67-45f4-9782-5bc652c5838b",
+  "fields": {
+    "created_at": "2023-11-12T19:22:25.460Z",
+    "updated_at": "2023-11-12T19:22:25.460Z",
+    "title": "Общительны и отзывчивы, не чувствуете скованности с новыми людьми.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "1954bbea-9d19-448f-aeae-9a1c9004ae78",
+  "fields": {
+    "created_at": "2023-11-12T17:57:18.512Z",
+    "updated_at": "2023-11-12T17:57:18.512Z",
+    "title": "Если кто-либо будет зло шутить по моему адресу, я скорее всего поставлю его на место.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "1a9d6c76-cd95-45fd-9c23-5ac03aee30a5",
+  "fields": {
+    "created_at": "2023-11-12T18:31:01.396Z",
+    "updated_at": "2023-11-12T18:31:01.396Z",
+    "title": "9 Ваше материальное положение таково, что угнетает вас.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "1b67db5e-e143-447d-bcda-3c501520437a",
+  "fields": {
+    "created_at": "2023-11-12T17:13:06.851Z",
+    "updated_at": "2023-11-12T17:13:06.851Z",
+    "title": "Мне нравится детально изучать то, чем я занимаюсь.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "1b96de89-2671-4d93-b234-8129ceea5dbc",
+  "fields": {
+    "created_at": "2023-11-12T17:10:08.217Z",
+    "updated_at": "2023-11-12T17:10:08.217Z",
+    "title": "Обычно меня настораживают люди, которые относятся ко мне дружелюбнее, чем я ожидал.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "1cd67b3a-2d6e-4cb7-9a1b-6f6ea42c6a00",
+  "fields": {
+    "created_at": "2023-11-12T18:35:57.194Z",
+    "updated_at": "2023-11-12T18:35:57.194Z",
+    "title": "Последовательны и обстоятельны в делах.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "1da3da30-b7e3-4512-8e9a-f1091567d5dc",
+  "fields": {
+    "created_at": "2023-11-12T19:10:06.137Z",
+    "updated_at": "2023-11-12T19:10:06.137Z",
+    "title": "Обладаете резкими, порывистыми движениями.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "1f3ed49a-0e79-4285-802e-3e2e4a94e3a2",
+  "fields": {
+    "created_at": "2023-11-12T18:02:25.930Z",
+    "updated_at": "2023-11-12T18:02:25.930Z",
+    "title": "Я часто злюсь на себя по какому-либо поводу.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "20efa222-8dc1-4ba7-a4ab-81bdeaca833b",
+  "fields": {
+    "created_at": "2023-11-12T19:54:24.406Z",
+    "updated_at": "2023-11-12T19:54:24.406Z",
+    "title": "В данный момент я слишком возбужден и мне не по себе.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "211ced16-e746-4c66-ba1c-694915ed85d7",
+  "fields": {
+    "created_at": "2023-11-12T18:40:24.281Z",
+    "updated_at": "2023-11-12T18:40:24.281Z",
+    "title": "Легко сдерживаете порывы.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "21360eeb-2c65-4d5d-b4b5-f59e4f5be2d0",
+  "fields": {
+    "created_at": "2023-11-12T18:51:22.636Z",
+    "updated_at": "2023-11-12T18:51:22.636Z",
+    "title": "Склонны к подозрительности, мнительности.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "22f6fd87-605c-4065-9ce8-136b2c74a940",
+  "fields": {
+    "created_at": "2023-11-12T18:07:21.077Z",
+    "updated_at": "2023-11-12T18:07:21.077Z",
+    "title": "В общении дома я часто специально придаю своему лицу суровое выражение.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "22f912fd-4039-456d-9d18-701ef4e1586b",
+  "fields": {
+    "created_at": "2023-11-12T17:04:10.133Z",
+    "updated_at": "2023-11-12T17:04:10.133Z",
+    "title": "Кое-кто настроен против меня.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "2398951e-210e-43a4-a367-213e250c2743",
+  "fields": {
+    "created_at": "2023-11-12T18:35:33.483Z",
+    "updated_at": "2023-11-12T18:35:33.483Z",
+    "title": "Спокойны и хладнокровны.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "2444b77e-6534-4a38-877e-2c559ccf54d4",
+  "fields": {
+    "created_at": "2023-11-12T18:44:12.860Z",
+    "updated_at": "2023-11-12T18:44:12.860Z",
+    "title": "Обладаете выдержкой.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "2514ff34-0177-40fe-a2a0-78a1eaa1cda5",
+  "fields": {
+    "created_at": "2023-11-12T17:09:04.202Z",
+    "updated_at": "2023-11-12T17:09:04.202Z",
+    "title": "Иногда знакомые подшучивают над моей аккуратностью и педантичностью.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "254ca414-fdd5-49de-9c47-91ae9e2c59c3",
+  "fields": {
+    "created_at": "2023-11-12T18:53:52.580Z",
+    "updated_at": "2023-11-12T18:53:52.580Z",
+    "title": "Стремитесь вызвать сочувствие и помощь у окружающих.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "274ff00c-50f4-4eef-b1de-eee465840244",
+  "fields": {
+    "created_at": "2023-11-12T19:08:24.394Z",
+    "updated_at": "2023-11-12T19:08:24.394Z",
+    "title": "Способны быстро действовать и решать.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "283ca17d-6263-4663-b08a-3c2997b3c8e1",
+  "fields": {
+    "created_at": "2023-11-12T19:21:10.940Z",
+    "updated_at": "2023-11-12T19:21:10.940Z",
+    "title": "Быстро включаетесь в новую работу и быстро переключаетесь с одной работы на другую.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "2874309d-7de3-4ca1-8736-44c4cdd942c1",
+  "fields": {
+    "created_at": "2023-11-12T19:19:47.643Z",
+    "updated_at": "2023-11-12T19:19:47.643Z",
+    "title": "Легко приспосабливаетесь к различным обстоятельствам.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "2a996932-8c5a-44f9-8d90-2073ee6bb592",
+  "fields": {
+    "created_at": "2023-11-12T19:44:57.574Z",
+    "updated_at": "2023-11-12T19:44:57.575Z",
+    "title": "В данный момент я встревожен.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "2aafcd41-dbd1-412d-9106-f19498f65e12",
+  "fields": {
+    "created_at": "2023-11-12T18:41:50.994Z",
+    "updated_at": "2023-11-12T18:41:50.994Z",
+    "title": "Постоянны в своих интересах и отношениях.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "2c6c3edf-3de5-4412-a1f2-8b960bff610b",
+  "fields": {
+    "created_at": "2023-11-12T17:10:34.655Z",
+    "updated_at": "2023-11-12T17:10:34.655Z",
+    "title": "Мне трудно отвлечься от начатой работы даже ненадолго.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "2c993170-2750-4fcd-97fb-57f34a2b1928",
+  "fields": {
+    "created_at": "2023-11-12T19:23:24.864Z",
+    "updated_at": "2023-11-12T19:23:24.864Z",
+    "title": "Выносливы и работоспособны.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "2dce7c46-2458-4743-9387-9378d3792f4d",
+  "fields": {
+    "created_at": "2023-11-12T17:09:42.457Z",
+    "updated_at": "2023-11-12T17:09:42.457Z",
+    "title": "Если я не прав, я не сержусь",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "2e03bfe7-a142-433a-8868-a1e1abf32309",
+  "fields": {
+    "created_at": "2023-11-12T17:55:23.341Z",
+    "updated_at": "2023-11-12T17:55:23.341Z",
+    "title": "Если кто-нибудь из коллег плохо отзовется по моему адресу, я выскажу ему всё, что думаю о нем.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "2e41b42d-f374-450d-a340-67cd40dbd6db",
+  "fields": {
+    "created_at": "2023-11-12T17:35:06.290Z",
+    "updated_at": "2023-11-12T17:35:06.290Z",
+    "title": "Разозлившись, я могу ударить кого-либо (ребенка, партнера и т. п.).",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "2ec88b82-8ea0-4e50-a8f2-7ef4eed329b0",
+  "fields": {
+    "created_at": "2023-11-12T18:40:51.563Z",
+    "updated_at": "2023-11-12T18:40:51.563Z",
+    "title": "Маловосприимчивы к одобрению и порицанию.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "2f329bd1-9458-4609-ae32-2b6b78f052e3",
+  "fields": {
+    "created_at": "2023-11-12T19:21:41.668Z",
+    "updated_at": "2023-11-12T19:21:41.668Z",
+    "title": "Тяготитесь однообразием, будничной, кропотливой работой.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "2f5fa5a3-45b3-41ed-b32f-8c766e4a3cf4",
+  "fields": {
+    "created_at": "2023-11-12T17:50:56.986Z",
+    "updated_at": "2023-11-12T17:50:56.986Z",
+    "title": "Я человек резкий или очень категоричный.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "315d864f-c642-45db-b946-e2ef3c00b909",
+  "fields": {
+    "created_at": "2023-11-12T18:52:18.670Z",
+    "updated_at": "2023-11-12T18:52:18.670Z",
+    "title": "Чрезвычайно обидчивы.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "33b7f84e-d066-4d59-a15e-1585205e618f",
+  "fields": {
+    "created_at": "2023-11-12T18:43:46.591Z",
+    "updated_at": "2023-11-12T18:43:46.591Z",
+    "title": "С трудом приспосабливаетесь к новой обстановке.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "35413a2a-34d7-47da-b747-32b09767ec33",
+  "fields": {
+    "created_at": "2023-11-12T17:04:59.761Z",
+    "updated_at": "2023-11-12T17:04:59.761Z",
+    "title": "Я люблю доводить начатое до конца.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "3599b96b-b37f-44b9-847c-452ec41d63f2",
+  "fields": {
+    "created_at": "2023-11-12T18:52:43.569Z",
+    "updated_at": "2023-11-12T18:52:43.569Z",
+    "title": "Скрытны и необщительны, не делитесь ни с кем своими мыслями.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "36cfd590-c17e-4462-8a57-76eb56c364a8",
+  "fields": {
+    "created_at": "2023-11-12T19:45:53.344Z",
+    "updated_at": "2023-11-12T19:45:53.344Z",
+    "title": "В данный момент я испытываю чувство внутреннего удовлетворения.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "386f12d5-f949-4582-8272-579ebb752df0",
+  "fields": {
+    "created_at": "2023-11-12T16:51:15.752Z",
+    "updated_at": "2023-11-12T16:51:15.752Z",
+    "title": "В игре я предпочитаю выигрывать.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "3b67bbcb-df80-434c-9a52-6a79cc608778",
+  "fields": {
+    "created_at": "2023-11-12T18:11:47.927Z",
+    "updated_at": "2023-11-12T18:11:47.927Z",
+    "title": "Бывало так, что я оказывался членом нехорошей компании (группировки)",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "3ce38afa-cb20-4d0e-bda1-76f3e92c423c",
+  "fields": {
+    "created_at": "2023-11-12T17:36:41.914Z",
+    "updated_at": "2023-11-12T17:36:41.914Z",
+    "title": "Если я разозлюсь, то чаще всего отхожу почти мгновенно.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "401261c1-b1f5-4eff-8eee-7921c873c056",
+  "fields": {
+    "created_at": "2023-11-12T17:15:53.600Z",
+    "updated_at": "2023-11-12T17:15:53.600Z",
+    "title": "Я люблю доводить свои умения и навыки до автоматизма.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "40bfe156-4f9c-433a-8f52-794224228e67",
+  "fields": {
+    "created_at": "2023-11-12T19:39:21.006Z",
+    "updated_at": "2023-11-12T19:39:21.006Z",
+    "title": "В данный момент я нахожусь в напряжении.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "41406119-941b-47c3-889d-3111066ef0c1",
+  "fields": {
+    "created_at": "2023-11-12T18:17:56.084Z",
+    "updated_at": "2023-11-12T18:17:56.084Z",
+    "title": "Иногда мне говорят, что злюсь, но я этого не замечаю.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "4164b6c1-eb22-43aa-83b9-3b61729d0d1d",
+  "fields": {
+    "created_at": "2023-11-12T18:19:01.366Z",
+    "updated_at": "2023-11-12T18:19:01.366Z",
+    "title": "Обычно моя злость дает мне импульс активности.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "426346c2-cd04-48f2-8a7a-07e6a40c4c5d",
+  "fields": {
+    "created_at": "2023-11-12T16:58:28.480Z",
+    "updated_at": "2023-11-12T16:58:28.480Z",
+    "title": "Бывает, что чья-то нелепая оплошность вызывает у меня смех.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "4422d9d3-b35a-466f-8990-a0e3f49ee267",
+  "fields": {
+    "created_at": "2023-11-12T17:16:22.909Z",
+    "updated_at": "2023-11-12T17:16:22.909Z",
+    "title": "Меня легко увлечь новыми затеями.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "4713a80c-0703-4cdb-b519-057e325151a4",
+  "fields": {
+    "created_at": "2023-11-12T18:00:12.685Z",
+    "updated_at": "2023-11-12T18:00:12.685Z",
+    "title": "Бывают минуты, когда я ненавижу или презираю себя.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "4743c5ab-c42b-4ace-9484-e4b5d1a80e43",
+  "fields": {
+    "created_at": "2023-11-12T19:18:49.949Z",
+    "updated_at": "2023-11-12T19:18:49.949Z",
+    "title": "Неустойчивы в интересах и склонностях.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "4894dcbc-8387-44fa-8bc7-6d9ab8b66802",
+  "fields": {
+    "created_at": "2023-11-12T18:42:17.716Z",
+    "updated_at": "2023-11-12T18:42:17.716Z",
+    "title": ". Медленно включаетесь в работу и переключаетесь с одного дела на другое.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "49aa10b8-c7c9-476a-8feb-8842db470573",
+  "fields": {
+    "created_at": "2023-11-12T18:21:34.067Z",
+    "updated_at": "2023-11-12T18:21:34.067Z",
+    "title": "Я часто расплачиваюсь за свою резкость или грубость.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "49fd787d-a336-4ae2-bad7-5c336a8506c1",
+  "fields": {
+    "created_at": "2023-11-12T18:17:04.056Z",
+    "updated_at": "2023-11-12T18:17:04.056Z",
+    "title": "Обычно, кода я поругаюсь с кем-нибудь, мне становится легче.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "4da3013b-063b-4ec2-905e-349c2b4868cc",
+  "fields": {
+    "created_at": "2023-11-12T18:22:49.017Z",
+    "updated_at": "2023-11-12T18:22:49.017Z",
+    "title": "Переживание злости или гнева явно вредит моему здоровью.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "4da50961-5d5d-4108-bde6-d7df0e82069f",
+  "fields": {
+    "created_at": "2023-11-12T19:01:46.588Z",
+    "updated_at": "2023-11-12T19:01:46.588Z",
+    "title": "Резки и прямолинейны в отношениях с людьми",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "4ea98442-eadf-4e7a-9b21-f1461ba0d23a",
+  "fields": {
+    "created_at": "2023-11-12T19:24:47.360Z",
+    "updated_at": "2023-11-12T19:24:47.360Z",
+    "title": "Обладаете всегда бодрым настроением.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "4f8ce845-5be0-4925-aeb9-723a79b8c081",
+  "fields": {
+    "created_at": "2023-11-12T18:36:27.221Z",
+    "updated_at": "2023-11-12T18:36:27.221Z",
+    "title": "Осторожны и рассудительны.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "52447a0a-26f5-4518-820c-3839a1e87975",
+  "fields": {
+    "created_at": "2023-11-12T17:34:33.646Z",
+    "updated_at": "2023-11-12T17:34:33.646Z",
+    "title": "Если я вижу, что мое раздражение или злость передается другим, то обычно тут же беру себя в руки.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "527c819d-d24b-4407-b9f1-b8660cc04765",
+  "fields": {
+    "created_at": "2023-11-12T16:53:50.500Z",
+    "updated_at": "2023-11-12T16:53:50.500Z",
+    "title": "Я очень напряженно работаю.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "53731fc7-8d24-4bac-8081-8dad14859f46",
+  "fields": {
+    "created_at": "2023-11-12T17:44:30.982Z",
+    "updated_at": "2023-11-12T17:44:30.982Z",
+    "title": "Я позволяю себе злость или гнев там, где меня никто не знает.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "537e5c2e-d03b-4f63-b72a-745e381ada77",
+  "fields": {
+    "created_at": "2023-11-12T18:00:56.822Z",
+    "updated_at": "2023-11-12T18:00:56.822Z",
+    "title": "Многое из того плохого, что случилось со мной в жизни, я наверняка заслужил.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "53e6b52b-627f-40b5-93b1-4ed4cde4b835",
+  "fields": {
+    "created_at": "2023-11-12T17:48:40.306Z",
+    "updated_at": "2023-11-12T17:48:40.306Z",
+    "title": "Иногда я понимаю, что вызываю у кого-либо злость, раздражение, но мне трудно изменить свое поведение или не хочу это делать.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "55fe4e71-345f-4f12-8811-8b5bc1487e6e",
+  "fields": {
+    "created_at": "2023-11-12T17:08:27.233Z",
+    "updated_at": "2023-11-12T17:08:27.233Z",
+    "title": "Иногда я так настаиваю на своем, что люди теряют терпение.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "5606bf58-2842-4767-b98e-306d529361cd",
+  "fields": {
+    "created_at": "2023-11-12T19:48:46.446Z",
+    "updated_at": "2023-11-12T19:48:46.447Z",
+    "title": "В данный момент я не нахожу себе места.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "58ccbf2d-7637-4819-8bd5-ad1e089a111a",
+  "fields": {
+    "created_at": "2023-11-12T17:08:01.178Z",
+    "updated_at": "2023-11-12T17:08:01.178Z",
+    "title": "Когда я иду или еду по улице, я часто подмечаю изменения в окружающей обстановке – подстриженные кусты, новые рекламные щиты и т. д",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "59080be8-ff5b-4465-bb7b-3ed30f003c7d",
+  "fields": {
+    "created_at": "2023-11-12T17:49:23.729Z",
+    "updated_at": "2023-11-12T17:49:23.729Z",
+    "title": "Я думаю, что мой характер – не подарок.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "5b014297-f79b-40e1-a1ea-2b61722df701",
+  "fields": {
+    "created_at": "2023-11-12T17:56:12.678Z",
+    "updated_at": "2023-11-12T17:56:12.678Z",
+    "title": "Я обычно легко «завожусь», когда сталкиваюсь с грубостью, агрессивность или злостью окружающих.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "5b2d775e-1333-41c9-bd97-299f12d1e200",
+  "fields": {
+    "created_at": "2023-11-12T16:56:26.606Z",
+    "updated_at": "2023-11-12T16:56:26.606Z",
+    "title": "Я предпочитаю ходить известными маршрутами.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "5b39020e-aa1b-424d-ac30-587e62369dff",
+  "fields": {
+    "created_at": "2023-11-12T17:45:53.184Z",
+    "updated_at": "2023-11-12T17:45:53.184Z",
+    "title": "В транспорте или магазине я бываю более агрессивен, чем на работе.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "5d0f43ec-1dab-4333-bcae-1a12f3bc4ba3",
+  "fields": {
+    "created_at": "2023-11-12T18:23:24.737Z",
+    "updated_at": "2023-11-12T18:23:24.737Z",
+    "title": "Бывает, я по несколько дней переживаю последствия того, что не смог сдержаться от злости.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "5ee6cf19-1ebc-48c0-a63a-4f5c3116f2e7",
+  "fields": {
+    "created_at": "2023-11-12T18:39:56.265Z",
+    "updated_at": "2023-11-12T18:39:56.266Z",
+    "title": "Строго придерживаетесь выработанного распорядка в жизни, системы в работе.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "5fab4620-6f6c-437b-8403-af12a6aa8f37",
+  "fields": {
+    "created_at": "2023-11-12T17:13:36.773Z",
+    "updated_at": "2023-11-12T17:13:36.773Z",
+    "title": "Мать или отец заставляли меня подчиняться даже тогда, когда я считал это неразумным.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "60ce7f43-7e4c-4513-9b4e-6f29fb827912",
+  "fields": {
+    "created_at": "2023-11-12T17:02:18.740Z",
+    "updated_at": "2023-11-12T17:02:18.740Z",
+    "title": "Нельзя строго осуждать человека, нарушающего формальные правила.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "62024d24-efd5-4797-853b-46c83fda2605",
+  "fields": {
+    "created_at": "2023-11-12T19:20:43.979Z",
+    "updated_at": "2023-11-12T19:20:43.979Z",
+    "title": "Быстро остываете, если дело перестает вас интересовать.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "629c59b1-2f48-4844-acc6-bbb11c3c13d9",
+  "fields": {
+    "created_at": "2023-11-12T18:51:51.040Z",
+    "updated_at": "2023-11-12T18:51:51.040Z",
+    "title": "Болезненно чувствительны и легко ранимы.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "63beae13-4dcd-4c39-97b4-b4c139174a52",
+  "fields": {
+    "created_at": "2023-11-12T17:12:08.535Z",
+    "updated_at": "2023-11-12T17:12:08.536Z",
+    "title": "У меня тяга к перемене мест, и я счастлив, когда брожу где-нибудь или путешествую.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "655e690e-9b94-40b6-87cf-27b3d7f75173",
+  "fields": {
+    "created_at": "2023-11-12T17:18:55.494Z",
+    "updated_at": "2023-11-12T17:18:55.494Z",
+    "title": "Если бы люди не были настроены против меня, я бы достиг в жизни гораздо большего.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "65f8d7b8-ac92-43db-b01b-c56275796c58",
+  "fields": {
+    "created_at": "2023-11-12T16:49:55.958Z",
+    "updated_at": "2023-11-12T16:49:55.958Z",
+    "title": "Праздники нужно отмечать с родственниками.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "674431b3-0cdb-45b0-9f9b-563f80b73cb0",
+  "fields": {
+    "created_at": "2023-11-12T17:31:10.615Z",
+    "updated_at": "2023-11-12T17:31:10.615Z",
+    "title": "Когда я очень устаю, легко могу разозлиться, выйти из себя.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "67eef63a-dfc9-4f12-a84b-97bb7f70da2d",
+  "fields": {
+    "created_at": "2023-11-12T19:04:25.827Z",
+    "updated_at": "2023-11-12T19:04:25.827Z",
+    "title": "Склонны к риску.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "68e738d9-4ad0-4b9d-b39d-95f9abb28fb9",
+  "fields": {
+    "created_at": "2023-11-12T19:44:05.661Z",
+    "updated_at": "2023-11-12T19:44:05.661Z",
+    "title": "В данный момент я ощущаю душевный покой.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "6b8896cd-b78a-4c98-9353-b81c937f6075",
+  "fields": {
+    "created_at": "2023-11-12T17:57:54.376Z",
+    "updated_at": "2023-11-12T17:57:54.376Z",
+    "title": "Я легко лажу с людьми, которые провоцируют грубость, или злость.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "6d0bf98a-34ef-41d3-8de1-8b7c62d61ae7",
+  "fields": {
+    "created_at": "2023-11-12T18:50:55.838Z",
+    "updated_at": "2023-11-12T18:50:55.838Z",
+    "title": "Предъявляете высокие требования к себе и окружающим.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "6e31695c-0932-4d73-a9c1-8efad590fa9d",
+  "fields": {
+    "created_at": "2023-11-12T19:06:57.380Z",
+    "updated_at": "2023-11-12T19:06:57.380Z",
+    "title": "Нетерпимы к недостаткам.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "6eb5700d-fdd2-4399-851d-117bd262a5c8",
+  "fields": {
+    "created_at": "2023-11-12T17:51:34.758Z",
+    "updated_at": "2023-11-12T17:51:34.758Z",
+    "title": "Я часто бываю несговорчивым, упрямым, непослушным.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "6ec9914b-b167-4c3b-93b6-3c3772555f4e",
+  "fields": {
+    "created_at": "2023-11-12T18:32:14.266Z",
+    "updated_at": "2023-11-12T18:32:14.266Z",
+    "title": "11 Кто-то или что-то постоянно унижает вас. Да - 1, Нет -0",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "6f110232-3619-4e75-8c1e-59874ae76cd1",
+  "fields": {
+    "created_at": "2023-11-12T19:02:47.117Z",
+    "updated_at": "2023-11-12T19:02:47.117Z",
+    "title": "Упрямы.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "6f50f280-8a9a-40ea-8649-9703e5ce2241",
+  "fields": {
+    "created_at": "2023-11-12T17:30:34.166Z",
+    "updated_at": "2023-11-12T17:30:34.166Z",
+    "title": "Часто какой-нибудь пустяк выводит меня из себя.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "7063cda7-2bc9-497c-9aed-985778855ab2",
+  "fields": {
+    "created_at": "2023-11-12T19:07:25.068Z",
+    "updated_at": "2023-11-12T19:07:25.068Z",
+    "title": "Агрессивный забияка.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "72bd61a6-51b9-4ffd-8663-d9a2da020212",
+  "fields": {
+    "created_at": "2023-11-12T19:06:30.036Z",
+    "updated_at": "2023-11-12T19:06:30.036Z",
+    "title": "Неуравновешенны и склонны к горячности.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "7375c780-2f58-46e5-bfb3-d0d37e74beb8",
+  "fields": {
+    "created_at": "2023-11-12T19:03:16.566Z",
+    "updated_at": "2023-11-12T19:03:16.566Z",
+    "title": "Находчивы в споре.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "754d7d4a-8b32-4934-ab48-ea105ce36469",
+  "fields": {
+    "created_at": "2023-11-12T19:47:47.276Z",
+    "updated_at": "2023-11-12T19:47:47.277Z",
+    "title": "В данный момент я нервничаю.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "778263b1-68a5-4b85-baa3-d445b9970f07",
+  "fields": {
+    "created_at": "2023-11-12T19:04:54.434Z",
+    "updated_at": "2023-11-12T19:04:54.434Z",
+    "title": "Незлопамятны и необидчивы.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "77ba3fae-bcd2-483b-a642-9bbb3598b031",
+  "fields": {
+    "created_at": "2023-11-12T17:59:35.937Z",
+    "updated_at": "2023-11-12T17:59:35.937Z",
+    "title": "Иногда я честно признаюсь себе: я плохой человек.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "798756af-47e7-4c49-8afe-1cce4383c1ae",
+  "fields": {
+    "created_at": "2023-11-12T19:15:58.083Z",
+    "updated_at": "2023-11-12T19:15:58.083Z",
+    "title": "Часто не доводите начатое дело до конца.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "7adb1f2a-d868-44fc-993b-0dbd63369587",
+  "fields": {
+    "created_at": "2023-11-12T17:43:57.297Z",
+    "updated_at": "2023-11-12T17:43:57.297Z",
+    "title": "На работе обычно сдерживаюсь, а дома бываю невыдержанным.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "7b8069ad-d879-45e7-9359-4d2cb97050e3",
+  "fields": {
+    "created_at": "2023-11-12T16:55:55.698Z",
+    "updated_at": "2023-11-12T16:55:55.698Z",
+    "title": "Меня легко переспорить.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "7c348d11-1b06-4dfa-bacd-948abec21fc0",
+  "fields": {
+    "created_at": "2023-11-12T19:25:16.754Z",
+    "updated_at": "2023-11-12T19:25:16.754Z",
+    "title": "Обладаете всегда бодрым настроением.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "7d19770d-de98-484b-8cd3-ed740370910e",
+  "fields": {
+    "created_at": "2023-11-12T19:11:01.682Z",
+    "updated_at": "2023-11-12T19:11:01.682Z",
+    "title": "Склонны к резким сменам настроения.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "7ebc9ede-1cf4-495e-a3e0-12806b8a7fae",
+  "fields": {
+    "created_at": "2023-11-12T18:45:28.247Z",
+    "updated_at": "2023-11-12T18:45:28.247Z",
+    "title": "Стеснительны и застенчивы.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "80cd5267-c25a-4628-8852-30de979b1895",
+  "fields": {
+    "created_at": "2023-11-12T19:40:35.293Z",
+    "updated_at": "2023-11-12T19:40:35.293Z",
+    "title": "В данный момент я внутренне скован.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "82f8fc12-11b4-4104-b637-f1a38a0bb688",
+  "fields": {
+    "created_at": "2023-11-12T17:03:44.314Z",
+    "updated_at": "2023-11-12T17:03:44.314Z",
+    "title": "Мне трудно сосредоточиться на какой-либо задаче или работе.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "84126fbc-9671-4e4a-b306-49db08283c55",
+  "fields": {
+    "created_at": "2023-11-12T18:26:11.288Z",
+    "updated_at": "2023-11-12T18:26:11.288Z",
+    "title": "Вы завидуете благополучию некоторых своих знакомых.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "887c2db5-0372-4a82-934b-41dc188761c9",
+  "fields": {
+    "created_at": "2023-11-12T18:48:37.979Z",
+    "updated_at": "2023-11-12T18:48:37.980Z",
+    "title": "Быстро утомляетесь.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "891a5632-9637-4254-bda1-cd373b935dbb",
+  "fields": {
+    "created_at": "2023-11-12T18:12:33.244Z",
+    "updated_at": "2023-11-12T18:12:33.244Z",
+    "title": "Я часто ругаюсь в очередях.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "8bce0045-0946-4847-a3cc-e064e7566cd0",
+  "fields": {
+    "created_at": "2023-11-12T17:01:15.138Z",
+    "updated_at": "2023-11-12T17:01:15.138Z",
+    "title": "Самое трудное для меня в любом деле – это начало.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "8c330d56-2f47-4664-ad50-629190d64d5d",
+  "fields": {
+    "created_at": "2023-11-12T17:14:45.336Z",
+    "updated_at": "2023-11-12T17:14:45.336Z",
+    "title": "Я легко переключаюсь с одного дела на другое.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "8f20c785-18d3-41ee-951e-96e1aa32f5db",
+  "fields": {
+    "created_at": "2023-11-12T17:41:54.708Z",
+    "updated_at": "2023-11-12T17:41:54.708Z",
+    "title": "Я часто успокаиваю себя тем, что сгоняю зло на вещах обидчика.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "8f54440f-5387-4a33-9151-437bcd495a56",
+  "fields": {
+    "created_at": "2023-11-12T18:50:00.959Z",
+    "updated_at": "2023-11-12T18:50:00.959Z",
+    "title": "Впечатлительны до слезливости.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "8ffe7287-5b69-4e35-a675-30b216054873",
+  "fields": {
+    "created_at": "2023-11-12T19:00:10.187Z",
+    "updated_at": "2023-11-12T19:00:10.187Z",
+    "title": "Невыдержанны, вспыльчивы.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "907f9c96-8a92-49c9-ad65-d4f2c9ac91d3",
+  "fields": {
+    "created_at": "2023-11-12T17:29:49.824Z",
+    "updated_at": "2023-11-12T17:29:49.824Z",
+    "title": "Временами я неожиданно «взрываюсь» злостью, гневом.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "910492f1-8330-4f84-a083-a836872f7e96",
+  "fields": {
+    "created_at": "2023-11-12T17:03:13.592Z",
+    "updated_at": "2023-11-12T17:03:13.592Z",
+    "title": "Я не всегда говорю правду",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "9130a4a3-4830-425e-bfee-e6c389d4f3ea",
+  "fields": {
+    "created_at": "2023-11-12T19:08:55.111Z",
+    "updated_at": "2023-11-12T19:08:55.111Z",
+    "title": "Неустанно стремитесь к новому.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "918f5a8e-f3f4-4985-b42a-339cc1cc5367",
+  "fields": {
+    "created_at": "2023-11-12T18:44:36.433Z",
+    "updated_at": "2023-11-12T18:44:36.433Z",
+    "title": "Постепенно сходитесь с новыми людьми.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "94910e71-45fe-4136-82f5-6cf0af9c53a8",
+  "fields": {
+    "created_at": "2023-11-12T17:14:15.343Z",
+    "updated_at": "2023-11-12T17:14:15.343Z",
+    "title": "Я умею быть спокойным, и даже немного равнодушным при виде чужого несчастья.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "94e66c8e-ccec-4ff8-a3ce-3c05d9d40aaa",
+  "fields": {
+    "created_at": "2023-11-12T17:37:25.838Z",
+    "updated_at": "2023-11-12T17:37:25.838Z",
+    "title": "Когда я чувствую прилив злобы или агрессии, то часто ухожу куда-нибудь, чтобы никого не видеть и не слышать.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "965beb68-68d3-4c6b-8367-eb170576c291",
+  "fields": {
+    "created_at": "2023-11-12T16:52:29.081Z",
+    "updated_at": "2023-11-12T16:52:29.081Z",
+    "title": "Мне труднее сосредоточиться, чем другим.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "985a94d2-2436-4751-866f-efe2ce26f93f",
+  "fields": {
+    "created_at": "2023-11-12T17:46:31.273Z",
+    "updated_at": "2023-11-12T17:46:31.273Z",
+    "title": "Иногда в транспортной толчее или в очереди я бываю столь агрессивен, что потом переживаю неловкость за себя.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "9923aa0f-e1e9-4cb8-9508-d837c18d80ce",
+  "fields": {
+    "created_at": "2023-11-12T18:46:29.632Z",
+    "updated_at": "2023-11-12T18:46:29.632Z",
+    "title": "Затрудняетесь установить контакт с новыми людьми.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "9b8dbd13-8db3-44e4-80bc-b214067ba299",
+  "fields": {
+    "created_at": "2023-11-12T18:50:28.357Z",
+    "updated_at": "2023-11-12T18:50:28.357Z",
+    "title": "Чрезвычайно восприимчивы к одобрению и порицанию.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "9c08a6f6-a60b-4755-b84c-365d236f6c8f",
+  "fields": {
+    "created_at": "2023-11-12T17:17:19.991Z",
+    "updated_at": "2023-11-12T17:17:19.991Z",
+    "title": "Во время монотонной работы я невольно начинаю изменять способ действия, даже если это порой ухудшает результат.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "9ee634c1-7aae-4537-879c-8a9129133818",
+  "fields": {
+    "created_at": "2023-11-12T17:50:10.766Z",
+    "updated_at": "2023-11-12T17:50:10.766Z",
+    "title": "У меня острый язык: палец мне в рот не клади.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "9f36f945-d98f-4ac5-a0a2-9b6192beab2c",
+  "fields": {
+    "created_at": "2023-11-12T16:55:19.921Z",
+    "updated_at": "2023-11-12T16:55:19.921Z",
+    "title": "Уверен, что за моей спиной обо мне говорят.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "9f67f905-1384-4176-a7d6-858b954852e3",
+  "fields": {
+    "created_at": "2023-11-12T18:01:36.984Z",
+    "updated_at": "2023-11-12T18:01:36.984Z",
+    "title": "Я часто злюсь на себя по какому-либо поводу.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "9fb4fd2b-5119-4a22-aeda-86b4f0ece0a9",
+  "fields": {
+    "created_at": "2023-11-12T18:47:48.862Z",
+    "updated_at": "2023-11-12T18:47:48.862Z",
+    "title": "Чувствуете подавленность и растерянность при неудачах.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "9fbd7742-59cb-43c6-b4d4-c9ecc208b48b",
+  "fields": {
+    "created_at": "2023-11-12T19:20:12.720Z",
+    "updated_at": "2023-11-12T19:20:12.720Z",
+    "title": "С увлечением беретесь за любое новое дело.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "a0547be2-f998-43ae-a726-96c43a6a7b55",
+  "fields": {
+    "created_at": "2023-11-12T18:23:56.773Z",
+    "updated_at": "2023-11-12T18:23:56.773Z",
+    "title": "Моя раздражительность отрицательным образом сказывалась на отношениях с близкими или друзьями.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "a5f425ec-ff8b-4c5a-ad6c-80e8a146d692",
+  "fields": {
+    "created_at": "2023-11-12T19:37:21.174Z",
+    "updated_at": "2023-11-12T19:37:21.174Z",
+    "title": "В данный момент я спокоен.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "a644de89-4a6c-4fee-9135-8ab0387bc831",
+  "fields": {
+    "created_at": "2023-11-12T19:26:14.470Z",
+    "updated_at": "2023-11-12T19:26:14.470Z",
+    "title": "Склонны иногда скользить по поверхности, отвлекаться.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "a77b52b1-9945-4e03-a704-aaf8cd6482b9",
+  "fields": {
+    "created_at": "2023-11-12T17:35:57.931Z",
+    "updated_at": "2023-11-12T17:35:57.931Z",
+    "title": "Моя злость обычно быстро проходит, если тот, кто ее вызвал, извиняется или признает свою неправоту.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "a7f302ba-bfb8-42d8-bca0-6d11592f8057",
+  "fields": {
+    "created_at": "2023-11-12T17:00:29.129Z",
+    "updated_at": "2023-11-12T17:00:29.129Z",
+    "title": "Я спокойно выхожу из дома, не беспокоясь о том, заперта ли дверь, выключен ли свет, газ и т. п.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "a7fdb549-8613-460e-8bd0-ba0ecf8f4332",
+  "fields": {
+    "created_at": "2023-11-12T17:40:39.748Z",
+    "updated_at": "2023-11-12T17:40:39.748Z",
+    "title": "Мне удается гасить раздражение и прочие напряженные состояния в активном отдыхе – в спорте, туризме, культурных мероприятиях.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "a8094188-fd0c-4088-9ec0-7750a7ebf269",
+  "fields": {
+    "created_at": "2023-11-12T19:10:32.206Z",
+    "updated_at": "2023-11-12T19:10:32.206Z",
+    "title": "Настойчивы в достижении поставленной цели.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "a811274b-ad39-472f-b38d-594ca8287b2c",
+  "fields": {
+    "created_at": "2023-11-12T18:16:23.899Z",
+    "updated_at": "2023-11-12T18:16:23.899Z",
+    "title": "Время от времени меня словно тянет поругаться с кем-нибудь.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "a8d66c75-7552-47da-a62f-de2c315dccb2",
+  "fields": {
+    "created_at": "2023-11-12T18:03:10.776Z",
+    "updated_at": "2023-11-12T18:03:10.776Z",
+    "title": "Если бог когда-нибудь накажет меня за мои грехи, то это будет заслуженно.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "a9f8cc93-8fe0-47e2-aa64-d074e813f209",
+  "fields": {
+    "created_at": "2023-11-12T18:38:57.821Z",
+    "updated_at": "2023-11-12T18:38:57.821Z",
+    "title": "Доводите начатое дело до конца.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "aa0e0eae-7a32-44ba-b662-ab83abe8bb8b",
+  "fields": {
+    "created_at": "2023-11-12T18:22:07.646Z",
+    "updated_at": "2023-11-12T18:22:07.646Z",
+    "title": "Некоторые люди обижены на меня за мою резкость или злобу.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "aa5309cc-213e-4ba7-9a72-1940d3cec913",
+  "fields": {
+    "created_at": "2023-11-12T18:41:17.055Z",
+    "updated_at": "2023-11-12T18:41:17.055Z",
+    "title": "Незлобивы, проявляете снисходительное отношение к колкостям в свой адрес.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "ab18385c-8e52-43f6-89ae-76add89f120a",
+  "fields": {
+    "created_at": "2023-11-12T18:37:42.732Z",
+    "updated_at": "2023-11-12T18:37:42.732Z",
+    "title": "Молчаливы и не любите зря болтать",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "ac1acf18-1162-4782-b662-6a9bd7a69851",
+  "fields": {
+    "created_at": "2023-11-12T17:11:05.198Z",
+    "updated_at": "2023-11-12T17:11:05.198Z",
+    "title": "Когда я вижу, что меня не понимают, я легко отказываюсь от намерения доказать что-либо.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "ad752eca-14a0-4e76-86b8-f09db2fa3cdf",
+  "fields": {
+    "created_at": "2023-11-12T19:46:55.509Z",
+    "updated_at": "2023-11-12T19:46:55.509Z",
+    "title": "В данный момент я уверен в себе.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "aea8dbfe-ed8a-4045-8123-455cff19ad78",
+  "fields": {
+    "created_at": "2023-11-12T18:30:28.297Z",
+    "updated_at": "2023-11-12T18:30:28.297Z",
+    "title": "8 Вас огорчает, что вам не удается отдыхать или проводить досуг так, как того хочется.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "b08d7085-da9f-499f-a3dc-341e309ba9f1",
+  "fields": {
+    "created_at": "2023-11-12T18:14:14.309Z",
+    "updated_at": "2023-11-12T18:14:14.309Z",
+    "title": "Я бы принял участие в стихийном митинге протеста, чтобы отстаивать вместе со всеми свои насущные интересы.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "b0beee0d-3961-44fd-b416-77c4cb494da0",
+  "fields": {
+    "created_at": "2023-11-12T17:01:40.809Z",
+    "updated_at": "2023-11-12T17:01:40.809Z",
+    "title": "Я практически всегда сдерживаю свои обещания.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "b1e5f8ab-7c31-4db7-a04e-3456882c14c5",
+  "fields": {
+    "created_at": "2023-11-12T16:57:35.815Z",
+    "updated_at": "2023-11-12T16:57:35.815Z",
+    "title": "Временами мои мысли проносятся быстрее, чем я успеваю их высказывать.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "b47dd3d6-cb08-4e5e-b700-8eb3e3d697a8",
+  "fields": {
+    "created_at": "2023-11-12T19:56:03.525Z",
+    "updated_at": "2023-11-12T19:56:03.525Z",
+    "title": "В данный момент мне приятно.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "b4dbe1d7-510c-4087-ad51-655416952873",
+  "fields": {
+    "created_at": "2023-11-12T19:17:14.786Z",
+    "updated_at": "2023-11-12T19:17:14.786Z",
+    "title": "Склонны переоценивать себя.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "b7366f6d-e40f-47ad-a05a-2074782d09c6",
+  "fields": {
+    "created_at": "2023-11-12T19:55:04.566Z",
+    "updated_at": "2023-11-12T19:55:04.566Z",
+    "title": "В данный момент мне радостно.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "b7619973-dc73-4076-b066-88fa4f4c21e9",
+  "fields": {
+    "created_at": "2023-11-12T17:40:05.837Z",
+    "updated_at": "2023-11-12T17:40:05.837Z",
+    "title": "Чувствуя прилив злости, я могу разрядиться на неодушевленных предметах (бью кулаком о стол, что-нибудь ломаю, бью посуду).",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "b92c8b26-d4a6-4ae8-a59e-23df93a17b06",
+  "fields": {
+    "created_at": "2023-11-12T19:23:50.451Z",
+    "updated_at": "2023-11-12T19:23:50.451Z",
+    "title": "Обладаете быстрой, громкой, отчетливой речью, сопровождающейся живыми жестами, выразительной мимикой.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "ba8e6034-deab-412d-af31-d0b3f3340117",
+  "fields": {
+    "created_at": "2023-11-12T18:42:46.405Z",
+    "updated_at": "2023-11-12T18:42:46.405Z",
+    "title": "Ровны в отношениях со всеми.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "baca5cfb-54cd-4e72-a469-b87aa9035653",
+  "fields": {
+    "created_at": "2023-11-12T19:07:55.376Z",
+    "updated_at": "2023-11-12T19:07:55.376Z",
+    "title": "Обладаете выразительной мимикой.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "bad1268f-e246-4995-bd1f-d5813b98be62",
+  "fields": {
+    "created_at": "2023-11-12T18:31:41.731Z",
+    "updated_at": "2023-11-12T18:31:41.732Z",
+    "title": "10 Вы считаете, что жизнь проходит мимо вас (проходит зря).",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "bba1e2d6-73d3-4afa-82c5-107d26b61ce6",
+  "fields": {
+    "created_at": "2023-11-12T18:05:29.172Z",
+    "updated_at": "2023-11-12T18:05:29.172Z",
+    "title": "Чтобы заставить себя сделать что-либо трудное или сложное, мне иногда надо себя хорошенько разозлить.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "bdd84638-51e3-465b-8fdc-fac969a47519",
+  "fields": {
+    "created_at": "2023-11-12T18:36:51.348Z",
+    "updated_at": "2023-11-12T18:36:51.348Z",
+    "title": "Умеете ждать.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "bfd01262-9eea-408d-96a6-e17ac654bd45",
+  "fields": {
+    "created_at": "2023-11-12T18:53:05.937Z",
+    "updated_at": "2023-11-12T18:53:05.937Z",
+    "title": "Малоактивны и робки.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "c0cc0d9b-d933-4bff-b6df-d1bf86c46503",
+  "fields": {
+    "created_at": "2023-11-12T17:12:36.620Z",
+    "updated_at": "2023-11-12T17:12:36.620Z",
+    "title": "Мне нелегко переключиться на новое дело, но потом, разобравшись, я справляюсь с ним лучше других.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "c1050287-69ed-4fc2-a570-beb9587bfad3",
+  "fields": {
+    "created_at": "2023-11-12T16:48:38.309Z",
+    "updated_at": "2023-11-12T16:48:38.309Z",
+    "title": "Меня раздражает, когда отвлекают от важной работы (например, просят совета).",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "c149bf1a-9de5-460b-bc3a-6d7e25973a20",
+  "fields": {
+    "created_at": "2023-11-12T19:43:06.154Z",
+    "updated_at": "2023-11-12T19:43:06.154Z",
+    "title": "В данный момент меня волнуют возможные неудачи.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "c2c4929b-ee75-4da3-858b-396b99cf74ab",
+  "fields": {
+    "created_at": "2023-11-12T19:32:34.346Z",
+    "updated_at": "2023-11-12T19:32:34.346Z",
+    "title": "В данный момент я спокоен.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "c57fc47a-ea49-4c64-b74a-74573c4d0e3b",
+  "fields": {
+    "created_at": "2023-11-12T18:10:49.477Z",
+    "updated_at": "2023-11-12T18:10:49.477Z",
+    "title": "Нередко я оказываюсь вовлеченным в какую-нибудь противоборствующую группировку.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "c5c92fa9-4c4b-4a78-95cd-4d413fc72024",
+  "fields": {
+    "created_at": "2023-11-12T18:27:30.234Z",
+    "updated_at": "2023-11-12T18:27:30.234Z",
+    "title": "Вы считаете, что достойны лучшей участи.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "c5dbf6f9-f7e6-4861-abae-eef3837c0921",
+  "fields": {
+    "created_at": "2023-11-12T19:14:52.142Z",
+    "updated_at": "2023-11-12T19:14:52.142Z",
+    "title": "Веселы и жизнерадостны.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "c611aadb-3c4d-47e6-b918-88ecd0802a4b",
+  "fields": {
+    "created_at": "2023-11-12T19:51:19.222Z",
+    "updated_at": "2023-11-12T19:51:19.222Z",
+    "title": "В данный момент я не чувствую скованности, напряжения.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "c7171dda-d1c5-4c29-baaa-65c46ec71f9e",
+  "fields": {
+    "created_at": "2023-11-12T19:50:26.908Z",
+    "updated_at": "2023-11-12T19:50:26.908Z",
+    "title": "В данный момент я взвинчен.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "c82da36d-2f5e-42c5-8fa6-df2b79d4dd35",
+  "fields": {
+    "created_at": "2023-11-12T18:53:31.479Z",
+    "updated_at": "2023-11-12T18:53:31.479Z",
+    "title": "Безропотно покорны.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "c98737db-40d0-48ed-b33e-a484a182e7a9",
+  "fields": {
+    "created_at": "2023-11-12T16:51:52.885Z",
+    "updated_at": "2023-11-12T16:51:52.885Z",
+    "title": "Когда я опаздываю куда-нибудь, я не в состоянии думать ни о чем другом, кроме как скорее доехать.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "ccec7e96-7738-438c-b7e5-1176e2d820fa",
+  "fields": {
+    "created_at": "2023-11-12T19:42:05.410Z",
+    "updated_at": "2023-11-12T19:42:05.410Z",
+    "title": "В данный момент я расстроен.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "ce3acae9-c475-48bc-84e4-5d45f95e7633",
+  "fields": {
+    "created_at": "2023-11-12T19:53:18.627Z",
+    "updated_at": "2023-11-12T19:53:18.627Z",
+    "title": "В данный момент я озабочен.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "cfa39bf4-5085-44e5-9504-0b84b1e333ac",
+  "fields": {
+    "created_at": "2023-11-12T17:16:45.759Z",
+    "updated_at": "2023-11-12T17:16:45.759Z",
+    "title": "Я пытаюсь добиться своего наперекор обстоятельствам",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "d3795b98-f974-4f5a-a1a2-5530f3df4713",
+  "fields": {
+    "created_at": "2023-11-12T16:59:19.167Z",
+    "updated_at": "2023-11-12T16:59:19.168Z",
+    "title": "Бывает, что мне в голову приходят плохие слова, часто даже ругательства, и я не могу никак от них избавиться.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "d3986190-8f24-422a-bf22-f3d15142859d",
+  "fields": {
+    "created_at": "2023-11-12T18:26:41.029Z",
+    "updated_at": "2023-11-12T18:26:41.029Z",
+    "title": "Вы недовольны отношениями в семье.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "d3c82393-1924-43cb-8d9b-6efcb0691a3e",
+  "fields": {
+    "created_at": "2023-11-12T19:24:20.054Z",
+    "updated_at": "2023-11-12T19:24:20.054Z",
+    "title": "Сохраняете самообладание в неожиданной, сложной обстановке.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "d4fe6e12-fe9d-4e99-bb11-7c36537f78d2",
+  "fields": {
+    "created_at": "2023-11-12T17:11:39.846Z",
+    "updated_at": "2023-11-12T17:11:39.846Z",
+    "title": "В трудные моменты я умею позаботиться о других.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "d5683167-0f80-47d4-98e3-e0fd4547ba7b",
+  "fields": {
+    "created_at": "2023-11-12T18:39:22.805Z",
+    "updated_at": "2023-11-12T18:39:22.805Z",
+    "title": "Не растрачиваете попусту сил.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "d8c3817d-e53d-418c-a0af-131acd882a7d",
+  "fields": {
+    "created_at": "2023-11-12T19:15:21.373Z",
+    "updated_at": "2023-11-12T19:15:21.373Z",
+    "title": "Энергичны и деловиты.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "d97069d9-6e12-4e97-8dd2-c0d91b264d9c",
+  "fields": {
+    "created_at": "2023-11-12T18:13:30.826Z",
+    "updated_at": "2023-11-12T18:13:30.826Z",
+    "title": "Если бы понадобилось пойти на баррикады, я бы пошел.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "d9899e3d-4514-4ffb-84ab-3ff13e7d0015",
+  "fields": {
+    "created_at": "2023-11-12T17:07:35.122Z",
+    "updated_at": "2023-11-12T17:07:35.122Z",
+    "title": "Я всегда стараюсь не откладывать на завтра то, что можно сделать сегодня.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "d9a0a187-cff2-4d82-bc52-9e25f47f38d4",
+  "fields": {
+    "created_at": "2023-11-12T18:07:54.971Z",
+    "updated_at": "2023-11-12T18:07:54.971Z",
+    "title": "Чтобы повлиять на окружающих, я часто лишь изображаю гнев или злость, но глубоко не переживаю, не испытываю этих состояний.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "d9db296a-21bb-4d12-a531-2d0350ca424d",
+  "fields": {
+    "created_at": "2023-11-12T17:18:19.035Z",
+    "updated_at": "2023-11-12T17:18:19.035Z",
+    "title": "На улице, в транспорте я часто разглядываю окружающих людей.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "da377ad5-d424-462e-ade1-12d96630811e",
+  "fields": {
+    "created_at": "2023-11-12T19:38:22.046Z",
+    "updated_at": "2023-11-12T19:38:22.046Z",
+    "title": "В данный момент мне ничто не угрожает.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "db93119d-e8a5-4f59-95a3-63fd2408839b",
+  "fields": {
+    "created_at": "2023-11-12T17:17:52.232Z",
+    "updated_at": "2023-11-12T17:17:52.232Z",
+    "title": "Люди порой завидуют моему терпению и дотошности.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "dcfd7750-ab39-4e83-8594-a0cc42f7afde",
+  "fields": {
+    "created_at": "2023-11-12T19:41:28.173Z",
+    "updated_at": "2023-11-12T19:41:28.173Z",
+    "title": "В данный момент я чувствую себя свободно.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "e1354665-071d-45df-9310-827b99c0cd5a",
+  "fields": {
+    "created_at": "2023-11-12T18:32:49.890Z",
+    "updated_at": "2023-11-12T18:32:49.890Z",
+    "title": "12 Нерешенные бытовые проблемы выводят вас из равновесия.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "e407894c-0439-4234-813b-54c0dfe68f8c",
+  "fields": {
+    "created_at": "2023-11-12T19:00:49.900Z",
+    "updated_at": "2023-11-12T19:00:49.900Z",
+    "title": "Нетерпеливы.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "e625b882-41ca-4445-9650-f1f1768313c6",
+  "fields": {
+    "created_at": "2023-11-12T16:57:01.334Z",
+    "updated_at": "2023-11-12T16:57:01.334Z",
+    "title": "Всю свою жизнь я строго следую принципам, основанным на чувстве долга.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "e70c74e5-e009-495e-9ea9-9b6dd02ea414",
+  "fields": {
+    "created_at": "2023-11-12T17:31:51.603Z",
+    "updated_at": "2023-11-12T17:31:51.603Z",
+    "title": "Иногда я начинаю злиться ни с того ни с сего.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "e8d6e8bd-fee7-4902-8f14-fbfa79046aed",
+  "fields": {
+    "created_at": "2023-11-12T17:15:25.273Z",
+    "updated_at": "2023-11-12T17:15:25.273Z",
+    "title": "Из всех мнений по спорному вопросу только одно действительно является верным.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "ea907cfe-072e-4473-8c67-6fef28a724ca",
+  "fields": {
+    "created_at": "2023-11-12T18:45:52.480Z",
+    "updated_at": "2023-11-12T18:45:52.480Z",
+    "title": "Теряетесь в новой обстановке.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "eb39818f-e2e8-44ce-8b83-85e68febac3e",
+  "fields": {
+    "created_at": "2023-11-12T18:30:04.017Z",
+    "updated_at": "2023-11-12T18:30:04.017Z",
+    "title": "7 Вас злит, что кому-то везет в жизни больше, чем вам.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "ef856e6e-7fa3-4c06-bc24-3779726f2531",
+  "fields": {
+    "created_at": "2023-11-12T16:44:23.627Z",
+    "updated_at": "2023-11-12T16:44:23.627Z",
+    "title": "Полезно читать книги, в которых содержатся мысли, противоположные вашим.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "efa73fed-f041-462b-b0b5-33d2b6997f97",
+  "fields": {
+    "created_at": "2023-11-12T18:38:07.623Z",
+    "updated_at": "2023-11-12T18:38:07.623Z",
+    "title": "Обладаете спокойной, равномерной речью, с остановками, без резко выраженных эмоций, жестикуляции и мимики.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "f0d3d4a2-5790-4a1f-8739-0e6a6da5cee5",
+  "fields": {
+    "created_at": "2023-11-12T18:46:55.225Z",
+    "updated_at": "2023-11-12T18:46:55.225Z",
+    "title": "Не верите в свои силы.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "f10deeaa-bc19-41b0-a8e3-48a70056723e",
+  "fields": {
+    "created_at": "2023-11-12T18:06:24.681Z",
+    "updated_at": "2023-11-12T18:06:24.681Z",
+    "title": "Злость чаще всего помогает мне в жизни.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "f2a3a0ef-69e1-45a9-ae2e-870f00298764",
+  "fields": {
+    "created_at": "2023-11-12T19:05:26.955Z",
+    "updated_at": "2023-11-12T19:05:26.956Z",
+    "title": "Обладаете быстрой, страстной, со сбивчивыми интонациями речью",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "f2cc621f-5e82-4d5a-902f-a30534df3b00",
+  "fields": {
+    "created_at": "2023-11-12T18:29:03.496Z",
+    "updated_at": "2023-11-12T18:29:03.496Z",
+    "title": "5 Вас огорчает то, что не осуществляются планы и не сбываются надежды.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "f666c483-b3c2-44ec-8aab-4e052e5b45c1",
+  "fields": {
+    "created_at": "2023-11-12T18:19:44.348Z",
+    "updated_at": "2023-11-12T18:19:44.348Z",
+    "title": "После вспышки раздражения, злобы я обычно хорошо чувствую себя некоторое время.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "f7f682a9-55ce-46e5-954c-4781064ae19d",
+  "fields": {
+    "created_at": "2023-11-12T17:02:48.471Z",
+    "updated_at": "2023-11-12T17:02:48.471Z",
+    "title": "Мне часто приходилось выполнять распоряжения людей, гораздо меньше знающих, чем я.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "fa13cbca-cac6-4a28-85af-8cacf018173f",
+  "fields": {
+    "created_at": "2023-11-12T16:53:16.279Z",
+    "updated_at": "2023-11-12T16:53:16.279Z",
+    "title": "Я много времени уделяю тому, чтобы все вещи лежали на своих местах.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "fa9be648-3623-407f-8c6b-f455e0f42bd1",
+  "fields": {
+    "created_at": "2023-11-12T19:17:52.145Z",
+    "updated_at": "2023-11-12T19:17:52.145Z",
+    "title": "Способны быстро схватывать новое.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "fb1de4b2-52e6-4ece-9d2b-5ba43710b0df",
+  "fields": {
+    "created_at": "2023-11-12T19:25:45.800Z",
+    "updated_at": "2023-11-12T19:25:45.800Z",
+    "title": "Часто не собранны, проявляете поспешность в решениях.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "fb3a6d9a-c3fb-4092-b343-621aec6e7a9d",
+  "fields": {
+    "created_at": "2023-11-12T19:02:20.928Z",
+    "updated_at": "2023-11-12T19:02:20.928Z",
+    "title": "Решительны и инициативны.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "fc9ad292-37de-46a7-aa29-676d27bb1e45",
+  "fields": {
+    "created_at": "2023-11-12T18:28:15.912Z",
+    "updated_at": "2023-11-12T18:28:15.912Z",
+    "title": "Вы полагаете, что могли бы достичь большего в личной жизни или в работе, если бы не обстоятельства.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+},
+{
+  "model": "psycho_test.question",
+  "pk": "fe96d74c-22bd-4497-b086-fa8eb6f70767",
+  "fields": {
+    "created_at": "2023-11-12T19:52:16.969Z",
+    "updated_at": "2023-11-12T19:52:16.969Z",
+    "title": "В данный момент я доволен.",
+    "description": "",
+    "type": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c"
+  }
+}
+]

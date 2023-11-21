@@ -1,0 +1,497 @@
+[
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "00dfef72-90f2-4fb9-988a-f33f7c1bb090",
+  "fields": {
+    "created_at": "2023-11-12T21:53:47.328Z",
+    "updated_at": "2023-11-12T21:53:47.328Z",
+    "name": "сильно выраженное состояние фрустрации",
+    "code": "TP016",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "0a5801bf-f313-4888-980e-ecdab50e8a6a",
+  "fields": {
+    "created_at": "2023-11-12T21:42:57.829Z",
+    "updated_at": "2023-11-12T21:42:57.829Z",
+    "name": "Проявляются черты холерика",
+    "code": "TP005",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "0f7ab2b7-a7d1-4aaa-ae2b-d1d03f0d2dae",
+  "fields": {
+    "created_at": "2023-11-12T22:17:38.282Z",
+    "updated_at": "2023-11-12T22:17:38.282Z",
+    "name": "Низкий уровень к аутоагрессии",
+    "code": "A019",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "0ffc1a45-079b-431f-8505-561961fa2ba3",
+  "fields": {
+    "created_at": "2023-11-12T22:19:35.284Z",
+    "updated_at": "2023-11-12T22:19:35.284Z",
+    "name": "Высокий уровень анонимной агрессии",
+    "code": "A022",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "18836991-fe56-4e7c-9a7d-fed38db9b0a1",
+  "fields": {
+    "created_at": "2023-11-12T22:00:26.369Z",
+    "updated_at": "2023-11-12T22:00:26.370Z",
+    "name": "Высокий уровень спонтанной агрессии",
+    "code": "A004",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "188d86ad-e90e-4725-9992-6dc869956ddc",
+  "fields": {
+    "created_at": "2023-11-12T21:49:18.775Z",
+    "updated_at": "2023-11-12T21:49:18.775Z",
+    "name": "Флегматик",
+    "code": "TP010",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "1fc9ce9c-3d96-4beb-a626-2fab4abf83a7",
+  "fields": {
+    "created_at": "2023-11-12T21:39:58.998Z",
+    "updated_at": "2023-11-12T21:39:58.998Z",
+    "name": "Проявляются черты сангвиника",
+    "code": "TP002",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "211e7c39-d622-4132-8da1-058ef12e739e",
+  "fields": {
+    "created_at": "2023-11-12T21:59:51.292Z",
+    "updated_at": "2023-11-12T21:59:51.292Z",
+    "name": "Низкий уровень спонтанной агрессии",
+    "code": "A003",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "27949d6c-6311-405b-93eb-587f9f556c7c",
+  "fields": {
+    "created_at": "2023-11-12T22:08:47.842Z",
+    "updated_at": "2023-11-12T22:08:47.842Z",
+    "name": "Высокий уровень ритуализации агрессии",
+    "code": "A010",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "3529796e-cb1f-41c5-b08e-509557c0f8e3",
+  "fields": {
+    "created_at": "2023-11-12T22:18:18.947Z",
+    "updated_at": "2023-11-12T22:18:18.948Z",
+    "name": "Высокий уровень аутоагрессии",
+    "code": "A020",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "37098196-f89a-4b02-b3f5-3844ee37b485",
+  "fields": {
+    "created_at": "2023-11-12T22:13:40.164Z",
+    "updated_at": "2023-11-12T22:13:40.164Z",
+    "name": "Высокий уровень переключения агрессии",
+    "code": "A015",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "394d3a12-f1df-4884-80aa-ea40f43963ff",
+  "fields": {
+    "created_at": "2023-11-12T22:08:16.782Z",
+    "updated_at": "2023-11-12T22:08:16.782Z",
+    "name": "Низкий уровень ритуализации агрессии",
+    "code": "A009",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "3cd5c12c-f5bb-46b9-bb26-d9eaf0541210",
+  "fields": {
+    "created_at": "2023-11-12T21:41:34.781Z",
+    "updated_at": "2023-11-12T21:41:34.781Z",
+    "name": "Холерик",
+    "code": "TP004",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "42919e19-f603-4f3b-af57-bca4b3f7b62a",
+  "fields": {
+    "created_at": "2023-11-12T21:49:56.233Z",
+    "updated_at": "2023-11-12T21:49:56.233Z",
+    "name": "Проявляются черты флегматика",
+    "code": "TP011",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "46ea78b2-769d-47a6-a98d-e452488a49d5",
+  "fields": {
+    "created_at": "2023-11-12T21:55:08.265Z",
+    "updated_at": "2023-11-12T21:55:08.265Z",
+    "name": "Мобильный",
+    "code": "R001",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "49eb10e1-07de-44bc-b097-8d30ce04f852",
+  "fields": {
+    "created_at": "2023-11-12T22:15:48.884Z",
+    "updated_at": "2023-11-12T22:15:48.884Z",
+    "name": "Высокий уровень торможения агрессии",
+    "code": "A017",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "4f2132c7-cc1b-44be-9120-f3a0f6ac5ebf",
+  "fields": {
+    "created_at": "2023-11-12T22:14:26.795Z",
+    "updated_at": "2023-11-12T22:14:26.796Z",
+    "name": "Низкий уровень переключения агрессии",
+    "code": "A016",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "563e4082-9cb1-4cca-9db5-0cec8e48ce4f",
+  "fields": {
+    "created_at": "2023-11-12T21:34:49.079Z",
+    "updated_at": "2023-11-12T21:34:49.079Z",
+    "name": "Высокий уровень ситуативной тревожности",
+    "code": "T003",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "61ce107f-deb1-404b-85ee-017c4c955261",
+  "fields": {
+    "created_at": "2023-11-12T21:52:27.892Z",
+    "updated_at": "2023-11-12T21:52:27.892Z",
+    "name": "Незначительное, но выраженное состояние фрустрации",
+    "code": "TP014",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "6c82b2f9-4fe0-4885-a337-bf8a29d693d8",
+  "fields": {
+    "created_at": "2023-11-12T21:59:00.845Z",
+    "updated_at": "2023-11-12T21:59:00.845Z",
+    "name": "Высокий уровень удовольствия от агрессии",
+    "code": "A002",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "7aa5d850-7aec-434a-9e05-31f68cc80afd",
+  "fields": {
+    "created_at": "2023-11-12T21:53:05.814Z",
+    "updated_at": "2023-11-12T21:53:05.814Z",
+    "name": "выраженное состояние фрустрации",
+    "code": "TP015",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "817a8e5b-2d00-4814-924d-49f392553404",
+  "fields": {
+    "created_at": "2023-11-12T21:40:50.501Z",
+    "updated_at": "2023-11-12T21:40:50.501Z",
+    "name": "Не проявляются черты сангвиника",
+    "code": "TP003",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "836a46ea-d701-4f70-be43-392d90b346d6",
+  "fields": {
+    "created_at": "2023-11-12T21:33:57.973Z",
+    "updated_at": "2023-11-12T21:33:57.973Z",
+    "name": "Умеренный уровень ситуативной тревожности",
+    "code": "T002",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "8720030b-7818-4c7f-9140-b38802e8dbd7",
+  "fields": {
+    "created_at": "2023-11-12T22:19:01.661Z",
+    "updated_at": "2023-11-12T22:19:01.661Z",
+    "name": "Низкий уровень анонимной агрессии",
+    "code": "A021",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "8e22daa5-0c40-4311-8f5d-d2ca17e4effc",
+  "fields": {
+    "created_at": "2023-11-12T21:55:46.978Z",
+    "updated_at": "2023-11-12T21:55:46.978Z",
+    "name": "проявляет черты ригидности и мобильности",
+    "code": "R002",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "8e6af2fe-08f2-457f-91ae-bf9e2f097ff1",
+  "fields": {
+    "created_at": "2023-11-12T21:44:01.370Z",
+    "updated_at": "2023-11-12T21:44:01.370Z",
+    "name": "Не проявляются черты холерика",
+    "code": "TP006",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "8fbbacbf-5aea-49c7-b732-85b9ddc95177",
+  "fields": {
+    "created_at": "2023-11-12T22:09:35.438Z",
+    "updated_at": "2023-11-12T22:09:35.438Z",
+    "name": "Низкий уровень расплаты за агрессию",
+    "code": "A011",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "a2211dbb-7134-4639-84cd-54a06a72257d",
+  "fields": {
+    "created_at": "2023-11-12T21:51:49.864Z",
+    "updated_at": "2023-11-12T21:51:49.864Z",
+    "name": "Отсутствие состояния фрустрации",
+    "code": "TP013",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "a93e8120-320a-43f3-bff3-b56cef817e3d",
+  "fields": {
+    "created_at": "2023-11-12T21:56:34.120Z",
+    "updated_at": "2023-11-12T21:56:34.120Z",
+    "name": "Ригидный",
+    "code": "R003",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "ab074154-b028-4c97-a276-8346f9555411",
+  "fields": {
+    "created_at": "2023-11-12T22:10:08.869Z",
+    "updated_at": "2023-11-12T22:10:08.869Z",
+    "name": "Высокий уровень расплаты за агрессию",
+    "code": "A012",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "b4713b49-60ef-41c8-8eab-28b2014e1d2b",
+  "fields": {
+    "created_at": "2023-11-12T21:37:05.155Z",
+    "updated_at": "2023-11-12T21:37:05.155Z",
+    "name": "Очень высокий уровень тревожности",
+    "code": "T004",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "c7ba23af-0eb2-411c-a335-b106a9aaeaa5",
+  "fields": {
+    "created_at": "2023-11-12T21:45:25.025Z",
+    "updated_at": "2023-11-12T21:45:25.025Z",
+    "name": "Меланхолик",
+    "code": "TP007",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "ccfbf55e-1de3-4f7a-a66e-356b109ede85",
+  "fields": {
+    "created_at": "2023-11-12T22:11:56.812Z",
+    "updated_at": "2023-11-12T22:11:56.812Z",
+    "name": "Высокий уровень провокации агрессии у окружающих",
+    "code": "A014",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "cd872747-6316-4d6b-b781-c1d4cf3172eb",
+  "fields": {
+    "created_at": "2023-11-12T21:32:44.987Z",
+    "updated_at": "2023-11-12T21:32:44.987Z",
+    "name": "Низкий уровень ситуативной тревожности",
+    "code": "T001",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "cffa3b30-67dc-43d6-acd1-80de24a132e0",
+  "fields": {
+    "created_at": "2023-11-12T22:11:00.883Z",
+    "updated_at": "2023-11-12T22:11:00.883Z",
+    "name": "Низкий уровень провокации агрессии у окружающих",
+    "code": "A013",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "da4c77ae-2bd7-4775-82f8-de8f4a621845",
+  "fields": {
+    "created_at": "2023-11-12T22:02:18.035Z",
+    "updated_at": "2023-11-12T22:02:18.035Z",
+    "name": "Низкий уровень склонности к отраженной агрессии",
+    "code": "A005",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "dc2e3850-ba1f-4e88-8c4c-c3ae77e9bc8a",
+  "fields": {
+    "created_at": "2023-11-12T22:16:48.982Z",
+    "updated_at": "2023-11-12T22:16:48.982Z",
+    "name": "Низкая способность к торможению агрессии",
+    "code": "A018",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "e56c6f41-d4ca-47c2-b5d1-7e25d9df9fef",
+  "fields": {
+    "created_at": "2023-11-12T21:38:50.016Z",
+    "updated_at": "2023-11-12T21:38:50.016Z",
+    "name": "Сангвиник",
+    "code": "TP001",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "e6d6a619-8561-4f09-87bf-b65b3f2a4b2d",
+  "fields": {
+    "created_at": "2023-11-12T21:57:46.990Z",
+    "updated_at": "2023-11-12T21:57:46.990Z",
+    "name": "Низкий уровень удовольствия от агрессии",
+    "code": "A001",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "e93410c4-3bba-4a59-a28c-849adcb2c411",
+  "fields": {
+    "created_at": "2023-11-12T22:05:40.057Z",
+    "updated_at": "2023-11-12T22:05:40.057Z",
+    "name": "Высокий уровень склонности к заражению агрессии толпы",
+    "code": "A008",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "f37fca46-c3fe-4458-a908-ff5cacd98db6",
+  "fields": {
+    "created_at": "2023-11-12T21:47:38.386Z",
+    "updated_at": "2023-11-12T21:47:38.386Z",
+    "name": "Не проявляются черты меланхолика",
+    "code": "TP009",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "f6588796-671b-44ee-a16e-094fbbef70dc",
+  "fields": {
+    "created_at": "2023-11-12T21:50:42.188Z",
+    "updated_at": "2023-11-12T21:50:42.188Z",
+    "name": "Не проявляются черты флегматика",
+    "code": "TP012",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "f7f0b2d6-0608-45ad-90a9-eabb4115d5d5",
+  "fields": {
+    "created_at": "2023-11-12T21:46:16.373Z",
+    "updated_at": "2023-11-12T21:46:16.373Z",
+    "name": "Проявляются черты меланхолика",
+    "code": "TP008",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "f831b926-ae8b-4b10-a4ab-dcf9feb3326b",
+  "fields": {
+    "created_at": "2023-11-12T22:03:20.080Z",
+    "updated_at": "2023-11-12T22:03:20.081Z",
+    "name": "Высокий уровень склонности к отражению агрессии",
+    "code": "A006",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.psychotestresultdictionary",
+  "pk": "fad72dd2-ca16-43af-8e44-27c7964bbfe2",
+  "fields": {
+    "created_at": "2023-11-12T22:04:52.485Z",
+    "updated_at": "2023-11-12T22:04:52.485Z",
+    "name": "Низкий уровень склонности к заражению агрессии толпы",
+    "code": "A007",
+    "description": ""
+  }
+}
+]

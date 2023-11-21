@@ -1,0 +1,72 @@
+[
+{
+  "model": "psycho_test.answer",
+  "pk": "402003d3-bb55-470e-8171-81985e8e4e09",
+  "fields": {
+    "created_at": "2023-11-12T19:33:25.871Z",
+    "updated_at": "2023-11-12T19:33:25.871Z",
+    "title": "Пожалуй, так",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.answer",
+  "pk": "5773ebfc-583c-4280-9ebc-0c6bec5ab99f",
+  "fields": {
+    "created_at": "2023-11-05T18:58:40.756Z",
+    "updated_at": "2023-11-05T18:58:40.756Z",
+    "title": "123123",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.answer",
+  "pk": "6746ecd3-43ed-4efe-93ff-a01eec30ad66",
+  "fields": {
+    "created_at": "2023-11-12T16:44:49.216Z",
+    "updated_at": "2023-11-12T16:44:49.216Z",
+    "title": "Да",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.answer",
+  "pk": "6ef5ed96-fb63-424c-bfb8-2ac1700abcb6",
+  "fields": {
+    "created_at": "2023-11-12T19:33:13.686Z",
+    "updated_at": "2023-11-12T19:33:13.686Z",
+    "title": "Нет, это не так",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.answer",
+  "pk": "880fd670-16d8-4d95-b256-ddd7d985ca54",
+  "fields": {
+    "created_at": "2023-11-12T19:33:58.497Z",
+    "updated_at": "2023-11-12T19:33:58.497Z",
+    "title": "Совершенно верно",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.answer",
+  "pk": "a2170cbd-772f-4b1a-8aa5-e6ffd45195f7",
+  "fields": {
+    "created_at": "2023-11-12T19:33:43.570Z",
+    "updated_at": "2023-11-12T19:33:43.570Z",
+    "title": "Верно",
+    "description": ""
+  }
+},
+{
+  "model": "psycho_test.answer",
+  "pk": "d07d57c6-fd7e-43a6-89f0-2ecf4ef0e71e",
+  "fields": {
+    "created_at": "2023-11-12T16:47:22.769Z",
+    "updated_at": "2023-11-12T16:47:22.769Z",
+    "title": "Нет",
+    "description": ""
+  }
+}
+]

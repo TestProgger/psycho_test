@@ -1,0 +1,12 @@
+[
+{
+  "model": "psycho_test.answerscoreaction",
+  "pk": "939b4900-b2a6-4035-81b3-5bab0a1a9077",
+  "fields": {
+    "created_at": "2023-11-05T18:57:56.381Z",
+    "updated_at": "2023-11-12T16:46:06.590Z",
+    "name": "Прибавить",
+    "code": "add"
+  }
+}
+]

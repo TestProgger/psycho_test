@@ -1,0 +1,22 @@
+[
+{
+  "model": "psycho_test.questiontype",
+  "pk": "32b2e471-516d-439f-a723-7774afabece7",
+  "fields": {
+    "created_at": "2023-11-12T16:43:48.529Z",
+    "updated_at": "2023-11-12T16:43:48.529Z",
+    "name": "Множественный выбор",
+    "code": "multiple_selection"
+  }
+},
+{
+  "model": "psycho_test.questiontype",
+  "pk": "8a654aa6-cb9c-45b6-b9d9-d46e625d594c",
+  "fields": {
+    "created_at": "2023-11-12T16:43:29.901Z",
+    "updated_at": "2023-11-12T16:43:29.901Z",
+    "name": "Один ответ",
+    "code": "single_selection"
+  }
+}
+]

@@ -1,0 +1,13 @@
+[
+{
+  "model": "subject.subjectgroup",
+  "pk": "fb7daf52-2fea-4c1a-930a-2a626c49f636",
+  "fields": {
+    "created_at": "2023-11-05T19:26:33.736Z",
+    "updated_at": "2023-11-05T19:26:33.736Z",
+    "name": "TEST",
+    "code": "TEST",
+    "description": ""
+  }
+}
+]
